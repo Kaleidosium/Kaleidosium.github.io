@@ -4,12 +4,16 @@
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         <title>About Me</title>
     <style>
+        @font-face {
+         font-family: OCRB;
+         src: url("../website/OCRB.otf") format('opentype');
+}
         @keyframes blinkingText{
-         0%{ color: white;       }
+         0%{ color: white;        }
          49%{ color: transparent; }
          50%{ color: transparent; }
          99%{ color: transparent; }
-         100%{ color: white;     }
+         100%{ color: white;      }
 }
         .center{
           position: absolute;
@@ -19,8 +23,8 @@
           -webkit-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
 }
-         p{
-         font-family: 'OCR A Std';
+        p{
+         font-family: OCRB;
          style=fontsize:1000px;
          color: white;
 }
