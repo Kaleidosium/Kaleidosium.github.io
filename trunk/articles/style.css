@@ -1,0 +1,7 @@
+body {
+    font-family: sans-serif;
+    position: relative;
+    left: 1em;
+    top: 1em;
+    overflow-x: hidden;
+  }
