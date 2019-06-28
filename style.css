@@ -7,8 +7,13 @@
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-p, a {
-  font-family: "Source Code Pro", "Lucida Console", Monaco, monospace;
+}
+p {
+  font-family: 'Source Code Pro';
+  color: white;
+}
+ul {
+  font-family: 'Source Code Pro';
   color: white;
 }
 body {
@@ -19,9 +24,12 @@ body {
   border: 30px solid black;
   background-color: black;
 }
+a {
+  color: white;
+}
 
 /* CRT Flicker Code */
-  
+
 @keyframes flicker {
   0% {
     opacity: 0.27861;
