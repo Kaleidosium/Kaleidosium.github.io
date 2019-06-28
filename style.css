@@ -7,9 +7,12 @@
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-p, ul, a {
+p, ul {
   font-family: "Source Code Pro", "Lucida Console", Monaco, monospace;
   color: white;
+}
+a {
+  color: white;  
 }
 body {
   background-color: black;
