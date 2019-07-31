@@ -1,2 +1,4 @@
 # IamRifki.github.io
-A simple "About Me" website made in HTML and CSS, No JavaScript.
+My Website.
+
+`generation.js` is from [ArtGenerator](https://github.com/brainfoam/JS_Snippets/tree/master/ArtGenerator).
