@@ -1,6 +1,6 @@
 const speed = 100; // speed of wobbling, lower is faster
-const height = 3; // height of wobbling in pixels
-const alink = ""; // page to link text to (set to ="" for no link)
+const height = 3;  // height of wobbling in pixels
+const alink = "";  // page to link text to (set to ="" for no link)
 
 let wobtxt;
 let wobble;

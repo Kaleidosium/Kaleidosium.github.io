@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
 
 * {
   padding: 0;
@@ -20,8 +20,7 @@ body {
 }
 
 a {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
+  font-family: "Fredoka One", cursive;
   font-size: 2.5vmax;
   color: whitesmoke;
   margin-top: 1vmin;
@@ -42,8 +41,7 @@ a {
   }
 
   a {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
+    font-family: "Fredoka One", cursive;
     font-size: 4vmax;
     color: whitesmoke;
     margin-top: 1vmin;
