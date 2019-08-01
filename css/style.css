@@ -12,7 +12,7 @@ body {
 
 #title {
   font-family: "Fredoka One", cursive;
-  font-size: 6vmax;
+  font-size: 7.5vmax;
   color: whitesmoke;
   margin: 5vmin;
   text-shadow: 0.75vmin 0.75vmin  #000000;
@@ -22,13 +22,36 @@ body {
 a {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  font-size: 2vmax;
+  font-size: 2.5vmax;
   color: whitesmoke;
-  margin-top: 5vmin;
+  margin-top: 1vmin;
   margin-left: 5vmin;
-  text-shadow: 3px 3px  #000000;
+  text-shadow: 0.4vmin 0.4vmin #000000;
   text-decoration: none;
   position: relative;
+}
+
+@media only screen and (max-width: 850px) {
+  #title {
+    font-family: "Fredoka One", cursive;
+    font-size: 11vmax;
+    color: whitesmoke;
+    margin: 5vmin;
+    text-shadow: 0.75vmin 0.75vmin  #000000;
+    position: relative;
+  }
+
+  a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 4vmax;
+    color: whitesmoke;
+    margin-top: 1vmin;
+    margin-left: 5vmin;
+    text-shadow: 0.5vmin 0.5vmin  #000000;
+    text-decoration: none;
+    position: relative;
+  }
 }
 
 #container {
