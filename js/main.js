@@ -1,4 +1,4 @@
 window.onload = function() {
-    initgeneration();
-    initwobble();
+    artgeneration();
+    wobble();
 }

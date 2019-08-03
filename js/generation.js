@@ -1,3 +1,5 @@
+/* Code from https://github.com/brainfoam/JS_Snippets/blob/master/ArtGenerator/scripts/generation.js */
+
 let canvas;
 let ctx;
 
@@ -8,7 +10,7 @@ let procedural = true;
 
 let colorLock = 0;
 
-function initgeneration() {
+function artgeneration() {
     canvas = document.querySelector("#canvas");
     ctx = canvas.getContext('2d');
     ctx.fillStyle = "black";
