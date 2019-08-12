@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One&display=swap");
 
 * {
   padding: 0;
@@ -15,8 +15,16 @@ body {
   font-size: 7.5vmax;
   color: whitesmoke;
   margin: 5vmin;
-  text-shadow: 0.75vmin 0.75vmin  #000000;
+  text-shadow: 0.75vmin 0.75vmin #000000;
   position: relative;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
 
 #icons {
@@ -35,8 +43,16 @@ body {
     font-size: 10.5vmax;
     color: whitesmoke;
     margin: 5vmin;
-    text-shadow: 0.75vmin 0.75vmin  #000000;
+    text-shadow: 0.75vmin 0.75vmin #000000;
     position: relative;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
   }
 
   #text {
@@ -45,7 +61,7 @@ body {
     color: whitesmoke;
     margin-top: 1vmin;
     margin-left: 5vmin;
-    text-shadow: 0.5vmin 0.5vmin  #000000;
+    text-shadow: 0.5vmin 0.5vmin #000000;
     text-decoration: none;
     position: relative;
   }
@@ -55,6 +71,7 @@ body {
   position: relative;
 }
 
-canvas, #overlay {
+canvas,
+#overlay {
   position: fixed;
 }
