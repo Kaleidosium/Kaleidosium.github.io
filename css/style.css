@@ -32,7 +32,7 @@ body {
 @media only screen and (max-width: 850px) {
   #title {
     font-family: "Fredoka One", cursive;
-    font-size: 11vmax;
+    font-size: 10.5vmax;
     color: whitesmoke;
     margin: 5vmin;
     text-shadow: 0.75vmin 0.75vmin  #000000;
@@ -41,7 +41,7 @@ body {
 
   #text {
     font-family: "Fredoka One", cursive;
-    font-size: 4vmax;
+    font-size: 10vmax;
     color: whitesmoke;
     margin-top: 1vmin;
     margin-left: 5vmin;
