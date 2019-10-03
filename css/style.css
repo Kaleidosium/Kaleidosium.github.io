@@ -27,6 +27,17 @@ body {
                                   supported by Chrome and Opera */
 }
 
+#text {
+  font-family: "Fredoka One", cursive;
+  font-size: 4vmax;
+  color: whitesmoke;
+  margin-top: 1vmin;
+  margin-left: 5vmin;
+  text-shadow: 0.4vmin 0.4vmin #000000;
+  text-decoration: none;
+  position: relative;
+}
+
 #icons {
   font-size: 4vmax;
   color: whitesmoke;
@@ -65,6 +76,16 @@ body {
     text-decoration: none;
     position: relative;
   }
+
+  #icons {
+    font-size: 8vmax;
+    color: whitesmoke;
+    margin-top: 1vmin;
+    margin-left: 5vmin;
+    text-shadow: 0.4vmin 0.4vmin #000000;
+    text-decoration: none;
+    position: relative;
+  }
 }
 
 #container {
@@ -74,4 +95,8 @@ body {
 canvas,
 #overlay {
   position: fixed;
+}
+
+span {
+  display: inline-block;
 }
