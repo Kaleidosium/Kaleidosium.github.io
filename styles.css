@@ -56,6 +56,21 @@ h2 {
   color: #ffffff;
 }
 
+@media only screen and (max-width: 850px) {
+  h1 {
+    font-size: 36pt;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    color: #7bdb84;
+  }
+
+  h2 {
+    font-size: 20pt;
+    margin-left: 0.5em;
+    color: #ffffff;
+  }
+}
+
 li:before {
   content: "λ";
   color: #7bdb84;
