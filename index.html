@@ -1,39 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="UTF-8" />
-<meta name="Description" content="Rifki's Website" />
+<html lang="en-us">
 
 <head>
-    <title>Rifki's Landing Page</title>
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/wobble.css" />
-    <link rel="stylesheet" href="css/normalize.min.css" />
-
-    <!-- JavaScript Scripts-->
-    <script src="js/generation.js"></script>
-    <script src="js/wobble.js"></script>
-    <script src="js/main.js"></script>
-    <script src="https://kit.fontawesome.com/ed9e888ded.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>iamrifki.github.io</title>
+    <link href="./styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <div id="container">
-        <canvas id="canvas" width="500" height="500"></canvas>
-        <div id="overlay">
-            <div id="title" class="wobble">IamRifki</div>
-            <a id="text" href="./about.html">About</a>
-            <a id="text">/</a>
-            <a id="icons" href="https://github.com/IamRifki" class="fab fa-github"></a>
-            <a id="text">/</a>
-            <a id="icons" href="https://twitter.com/altOverflow" class="fab fa-twitter"></a>
+    <div class="container">
+        <div class="title">
+            <h1>iamrifki</h1>
+        </div>
+
+        <hr>
+
+        <div class="blocks">
+            <div class="title">
+                <h2>about</h2>
+            </div>
+            <div class="content">
+                <p>Student/Hobbyist Programmer from Jakarta, Indonesia.
+
+                    I use <span class="highlight">Sublime Text</span>, <span class="highlight">4coder</span> and
+                    <span class="highlight">Visual Studio Code</span> for programming.
+
+                    Let’s be friends!
+                </p>
+            </div>
+        </div>
+        <div class="blocks">
+            <div class="title">
+                <h2>online</h2>
+            </div>
+            <div class="content">
+                <ul>
+                    <li><a href="https://twitter.com/altOverflow">Twitter</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCKZY0V5igEK4f3m3q7XHtqQ">YouTube</a></li>
+                    <li><a href="https://twitch.tv/altOverflow">Twitch</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="blocks">
+            <div class="title">
+                <h2>projects</h2>
+            </div>
+            <div class="content">
+                <a href="https://github.com/IamRifki?tab=repositories">View GitHub Repositories</a>
+            </div>
         </div>
     </div>
 </body>
-
-</html>
