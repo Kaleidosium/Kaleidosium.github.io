@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  color: #5bd4ed;
+  color: #66d9ef;
   text-decoration: none;
 }
 
@@ -37,14 +37,14 @@ a {
 }
 
 .highlight {
-  background-color: #ccac82;
+  background-color: #d2b58d;
   color: #082628;
   display: inline-block;
   padding: 0 5px;
 }
 
 .code-block-title {
-  background-color: #7bdb84;
+  background-color: #67cd5d;
   color: #ffffff;
   display: inline-block;
   padding: 0 10px;
@@ -55,7 +55,7 @@ a {
 h1 {
   margin-bottom: 0;
   font-size: 36pt;
-  color: #7bdb84;
+  color: #67cd5d;
 }
 
 h2 {
@@ -67,14 +67,14 @@ h2 {
 h3 {
   margin-bottom: 0;
   font-size: 18pt;
-  color: #ccac82;
+  color: #d2b58d;
 }
 
 .nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  border-bottom: 10px solid #ccac82;
+  border-bottom: 10px solid #d2b58d;
 }
 
 .nav .right {
@@ -92,7 +92,7 @@ h3 {
   h1 {
     font-size: 36pt;
     margin-left: 0.5em;
-    color: #7bdb84;
+    color: #67cd5d;
   }
 
   h2 {
@@ -103,7 +103,7 @@ h3 {
 
   h3 {
     font-size: 14pt;
-    color: #ccac82;
+    color: #d2b58d;
   }
 
   .nav .right .link {
@@ -115,7 +115,7 @@ h3 {
 
 li:before {
   content: "λ";
-  color: #7bdb84;
+  color: #67cd5d;
   display: block;
   float: left;
   width: 1.2em;
@@ -129,7 +129,7 @@ ul {
 }
 
 .code-body pre {
-  border-left: 5px solid #7bdb84;
+  border-left: 5px solid #67cd5d;
   padding: 0;
   margin: 0.5em auto;
   white-space: pre;
@@ -144,7 +144,7 @@ ul {
   hyphens: none;
 }
 .code-body pre code {
-  color: #ccac82;
+  color: #d2b58d;
   font-size: 18px;
   max-height: 300px;
   line-height: 1.5em;
