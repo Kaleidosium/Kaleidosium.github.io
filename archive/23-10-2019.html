@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="Description" content="iamrifki.github.io" />
     <title>iamrifki.github.io</title>
-    <link href="../styles.css" rel="stylesheet">
-    <script src="scripts.js"></script>
+    <link href="../css/styles.css" rel="stylesheet">
+    <script src="../js/scripts.js"></script>
     <link rel="icon" data-emoji="⚛️" type="image/png">
+    <link href="../css/lolight.css" rel="stylesheet">
+    <script src="../js/lolight.js"></script>
 </head>
 
 <body>
@@ -42,9 +44,7 @@
                 </p>
                 <div class="code-body">
 
-                    <pre><code><span class="code-block-title">Odin</span>
-
-import "core:fmt"
+                    <pre><span class="code-block-title">Odin</span><code class="lolight">import "core:fmt"
 
 foo :: proc() {
     fmt.println("bar");
@@ -63,18 +63,14 @@ foo :: proc() {
                 </p>
                 <div class="code-body">
 
-                    <pre><code><span class="code-block-title">C</span>
-
-int main() {
-   printf("bar");
+                    <pre><span class="code-block-title">C</span> <code class="lolight">int main() {
+    printf("bar");
 }</code></pre>
                 </div>
-                <p>or...</p>
+                <p>or:</p>
                 <div class="code-body">
 
-                    <pre><code><span class="code-block-title">Clojure</span>
-
-(defn -foo
+                    <pre><span class="code-block-title">Clojure</span><code class="lolight">(defn -foo
     [& args]
     (println "bar"))</code></pre>
                 </div>
@@ -84,14 +80,12 @@ int main() {
                         explanation said by gingerBill himself</a>.
                 </p>
                 <p>
-                    in Odin the <span class="highlight">::</span> operator not only denotes functions but also <span
-                        class="highlight">constants and variables</span>.
+                    in Odin the <span class="highlight">::</span> operator not only denotes procedures but also <span
+                        class="highlight">constants and structs</span>.
                 </p>
                 <div class="code-body">
 
-                    <pre><code><span class="code-block-title">Odin</span>
-
-/* constants */
+                    <pre><span class="code-block-title">Odin</span><code class="lolight">/* constants */
 foo :: 123;
 bar : int : 123;
 
@@ -100,18 +94,33 @@ foo := 123;
 bar : int = 123;</code></pre>
                 </div>
                 <p>
-                    In both examples, <span class="highlight">foo</span> and <span class="highlight">bar</span> both
-                    have the same type despite being written differently, this is
-                    because of Odin has type infference similar to Go.
+                    In the constants examples, <span class="highlight">foo</span>'s value is untyped and <span
+                        class="highlight">bar</span>'s value is typed. You do not need to type them, they also serve as
+                    the equivalent of a C macro, so instead of this in C:
                 </p>
+                <div class="code-body">
+                    <pre><span class="code-block-title">C</span><code class="lolight">#define CONSTANT 123</code></pre>
+                </div>
                 <p>
-                    It can also denote structs:
+                    In Odin, you would write:
                 </p>
                 <div class="code-body">
 
-                    <pre><code><span class="code-block-title">Odin</span>
+                    <pre><span class="code-block-title">Odin</span><code class="lolight">CONSTANT :: 123;
+</code></pre>
+                </div>
+                <p>
+                    In the variable examples, <span class="highlight">foo</span> and <span class="highlight">bar</span>
+                    both
+                    have the same type despite being written differently, this is
+                    because of Odin has type inference similar to Go.
+                </p>
+                <p>
+                    Structs example:
+                </p>
+                <div class="code-body">
 
-foo :: struct {
+                    <pre><span class="code-block-title">Odin</span><code class="lolight">foo :: struct {
     bar: f32,
     baz: f32,
 }</code></pre>
