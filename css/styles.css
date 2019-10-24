@@ -18,6 +18,17 @@ a:hover {
   text-decoration: underline;
 }
 
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #0000ff;
+}
+
+::selection {
+  color: white;
+  background: #0000ff;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
