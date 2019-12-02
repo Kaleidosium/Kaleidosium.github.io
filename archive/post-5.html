@@ -96,19 +96,11 @@ bool isPrime(int x){
                     Haskell example.
                 </p>
                 <div class="code-body">
-                    <pre><span class="code-block-title">Haskell</span> <code class="lolight">import System.Environment
-
--- a simple integer square root
-isqrt :: Int -> Int
-isqrt = floor . sqrt . fromIntegral
-
--- primality test
-prime :: Int -> Bool
-prime x = null [x | q <- [3, 5..isqrt x], rem x q==0]
-
-main = do
-    n <- fmap (read . head) getArgs
-    print $ length $ filter prime (2:[3, 5..n])</code> </pre>
+                    <pre><span class="code-block-title">Haskell</span> <code class="lolight">prime :: Int -> Bool
+prime x = go 3
+    where
+        go q | q <= isqrt x = if rem x q == 0 then False else go (q+2)
+        go _ = True</code></pre>
                     <p>
                         That's way nicer and cleaner.
                     </p>
