@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap");
 
 body {
-  background-color: #082628;
+  background-color: #2b1d24;
   font-family: "Roboto Mono", monospace;
   color: #ffffff;
   font-size: 18px;
@@ -9,24 +9,24 @@ body {
 }
 
 a {
-  color: #66d9ef;
+  color: #d46a84;
   text-decoration: none;
 }
 
 a:hover {
-  color: #66d9ef;
+  color: #d46a84;
   text-decoration: underline;
 }
 
 ::-moz-selection {
   /* Code for Firefox */
   color: white;
-  background: #0000ff;
+  background: #3b2c33;
 }
 
 ::selection {
   color: white;
-  background: #0000ff;
+  background: #3b2c33;
 }
 
 .container {
@@ -53,15 +53,15 @@ a:hover {
 }
 
 .highlight {
-  background-color: #d2b58d;
+  background-color: #a26fbf;
   color: #082628;
   display: inline-block;
   padding: 0 5px;
 }
 
 .code-block-title {
-  background-color: #67cd5d;
-  color: #082628;
+  background-color: #a26fbf;
+  color: #3b2c33;
   display: inline-block;
   padding: 0 10px;
   margin-top: 10px;
@@ -69,7 +69,7 @@ a:hover {
 }
 
 .error {
-  background-color: #f92672;
+  background-color: #d46a84;
   color: #ffffff;
   display: inline-block;
   padding: 0 5px;
@@ -78,26 +78,26 @@ a:hover {
 h1 {
   margin-bottom: 0;
   font-size: 36pt;
-  color: #67cd5d;
+  color: #fff0f7;
 }
 
 h2 {
   margin-bottom: 0;
   font-size: 20pt;
-  color: #ffffff;
+  color: #fff0f7;
 }
 
 h3 {
   margin-bottom: 0;
   font-size: 18pt;
-  color: #d2b58d;
+  color: #a26fbf;
 }
 
 .nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  border-bottom: 10px solid #d2b58d;
+  border-bottom: 10px solid #a26fbf;
 }
 
 .nav .right {
@@ -115,18 +115,18 @@ h3 {
   h1 {
     font-size: 36pt;
     margin-left: 0.5em;
-    color: #67cd5d;
+    color: #fff0f7;
   }
 
   h2 {
     font-size: 20pt;
     margin-left: 1em;
-    color: #ffffff;
+    color: #fff0f7;
   }
 
   h3 {
     font-size: 18pt;
-    color: #d2b58d;
+    color: #a26fbf;
   }
 
   .nav .right .link {
@@ -138,7 +138,7 @@ h3 {
 
 li:before {
   content: "λ";
-  color: #67cd5d;
+  color: #a26fbf;
   display: block;
   float: left;
   width: 1.2em;
@@ -152,7 +152,7 @@ ul {
 }
 
 .code-body pre {
-  border-left: 5px solid #67cd5d;
+  border-left: 5px solid #a26fbf;
   padding: 0;
   margin: 0.5em auto;
   white-space: pre;
@@ -167,7 +167,7 @@ ul {
   hyphens: none;
 }
 .code-body pre code {
-  color: #d2b58d;
+  color: #a26fbf;
   font-size: 18px;
   max-height: 300px;
   line-height: 1.5em;
