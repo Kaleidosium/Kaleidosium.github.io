@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="iamrifki.github.io" />
+    <title>iamrifki.github.io</title>
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/lolight.css" rel="stylesheet">
+    <script src="../js/lolight.min.js"></script>
+    <link rel="shortcut-icon" href="../favicon.ico">
+</head>
+
+<p>
+    <div class="container">
+        <div class="nav">
+            <div class="left">
+                <div class="title">
+                    <h2><a href="../archive.html">back</a></h2>
+                </div>
+            </div>
+        </div>
+        <div class="blocks">
+            <div class="title">
+                <h2>Thoughts on Nim.</h2>
+            </div>
+            <div class="content">
+                <h3>Preface</h3>
+                <p>
+                    Hey I'm back with another article. Let's talk about Nim.
+                </p>
+                <h3>History</h3>
+                <p>
+                    According to Wikipedia:
+                </p>
+                <p>
+                    <div class="code-body">
+                        <pre> Nim (formerly named Nimrod) is 
+ an imperative, general-purpose, multi-paradigm, 
+ statically typed, systems, compiled programming language</pre>
+                    </div>
+                </p>
+                <p>
+                    It was created by Andreas Rumpf. who I have mixed feelings about which I will touch later. this
+                    language compiles to C/C++/JavaScript among others.
+                </p>
+                <h3>when isMainModule:</h3>
+                <p>
+                    Let's dive into Nim a bit.
+                </p>
+                <p>
+                    <span class="error">NOTE:</span> I did not use any features extensively that can't be sanely use
+                    without the Nim garbage collector (yes, Nim has a Garbage Collector, I'll get into that soon.)
+                </p>
+                <h3>Syntax</h3>
+                <p>
+                    Ah, Syntax, My favorite part of language design.
+                </p>
+                <p>
+                    If you do not know. I have mixed feelings about Pythonic Syntaxes. I think they're fine for small
+                    scripts, but for huge programs, it can be a mess just to find an indentation error. Nim tries to fix
+                    this by allowing you to also but explicit <span class="highlight">()</span>s, but that's largely
+                    discouraged by the community, and I'm pretty sure the compiler just ignores that.
+                </p>
+                <p>
+                    In Nim, you define types, A LOT. heck the way you make structs is using the <span
+                        class="highlight">object</span> keyword. which is (you guessed it), defined inside of a <span
+                        class="highlight">type</span> Which isn;t really a bad thing, I think it's perfectly fine, but
+                    to some people it may be insanity. it uses <span class="highlight">camelCase</span>, I prefer <span
+                        class="highlight">snake_case</span> but whatever, I do not really care.
+                </p>
+                <h3>Useful Features</h3>
+                <p><span class="highlight">Defer</span></p>
+                <p>
+                    Defer Statements?!, really?, oh my god. <span class="highlight">defer</span> in Go and Odin, or
+                    <span class="highlight">scope(exit)</span> in D. is a god send, they're much nicer (in my opinion)
+                    than using RAII or try..finally clauses. when I discovered that Nim has these, I was immediately
+                    hooked. it's such a useful feature.
+                </p>
+                <p><span class="highlight">Seq</span></p>
+                <p>
+                    <span class="highlight">Seq</span>uences are an interesting take for Dynamic Arrays. especially
+                    since this language compiles to C. Regular "fixed" arrays are available too. Sadly if you want to
+                    avoid the garbage collector, you might not want to use this feature as it does need some GC things.
+                </p>
+                <p><span class="highlight">Macros</span></p>
+                <p>
+                    Macros in Nim are really nice, They feel more like Lisp/Rust Macros than the C preprocessor. I
+                    recommend <a href="https://nim-by-example.github.io/macros/">clicking here</a> for examples (C.W.
+                    OOP).
+                </p>
+                <h3>The Garbage Collector</h3>
+                <p>
+                    The garbage collector in Nim has a few variations. For example, the stop-the-world, shared heap garbage collector
+                    similar to Go's garbage collector (Which is a very good garbage collector mind you, I barely
+                    have to think about it). however you can disable the garbage collector with the
+                    <span class="highlight">--gc:none</span> option. Sadly this seems to be looked down upon by the
+                    community except for the some people who use Nim for embedded systems.
+                </p>
+                <h3>The Community</h3>
+                <p>
+                    The community (for the most part) are nice, but they can be assertive on what you do. for example
+                    when I was asking how can I use Nim without garbage collection. I did not get any useful answers and
+                    instead was asked to use the experimental <span class="highlight">ARC</span> "memory management
+                    strategy" by the community and Andreas Rumpf himself. it wasn't until <a
+                        href="https://exelo.tl/">exelotl</a> actually gave an answer to my question.
+                </p>
+                <p>
+                    In case if you're curious, this is the answer they gave.
+                    <div class="code-body">
+                        <pre> Basically with gc:none you just wanna avoid all these features:
+     - seq
+     - ref / ref object
+     - string  (use cstring instead)
+     - closures / anonymous procedures 
+     (if you wanna pass functions around, use {.nimcall.}, or {.nodecl.} if you wanna guarantee C compatibility)
+
+ you might want to annotate all your object types with {.bycopy.} just for sanity 
+ (apparently the compiler can choose to implicitly pass objects by reference if they get too big, though I've never actually experienced this)
+ 
+ it's OK to use seqs and strings and closures in macros though
+ just don't let them get into your runtime code</pre>
+                    </div>
+                </p>
+                <h3>Conclusion</h3>
+                <p>
+                    Overall, I think Nim has a lot of potential. I think the only thing I would change about it is its
+                    Pythonic Syntax and make it nicer to work with <span class="highlight">--gc:none</span>. The community
+                    could be better but the ones that are close to me are nice people, so thank you exelotl!. This is
+                    IamRifki, signing off.
+                </p>
+
+                <h3>- IamRifki</h3>
+            </div>
+        </div>
+    </div>
