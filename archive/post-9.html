@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="iamrifki.github.io" />
+    <title>iamrifki.github.io</title>
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/lolight.css" rel="stylesheet">
+    <script src="../js/lolight.min.js"></script>
+    <link rel="shortcut-icon" href="../favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="left">
+                <div class="title">
+                    <h2><a href="../archive.html">back</a></h2>
+                </div>
+            </div>
+        </div>
+        <div class="blocks">
+            <div class="title">
+                <h2>My experience with Emulator Development.</h2>
+            </div>
+            <div class="content">
+                <h3>Preface</h3>
+                <p>
+                    Today I'll be talking about Emulator Development, my experience with it, etc. This is not a
+                    technical article by any means.
+                </p>
+                <h3>Hello EmuDev!</h3>
+                <p>
+                    Back in late 2018 I dreamt of making an Emulator, specifically a Nintendo Entertainment System
+                    emulator.
+                </p>
+                <p>
+                    Many have done it, but I would like to make my own. So in January 2019 I started working on my own
+                    emulator, it wasn't for the NES, it was a CHIP-8 Emulator.
+                </p>
+                <p>
+                    The CHIP-8 wasn't really a "console", it's more like a Virtual Machine, so the better way of saying
+                    it, is a CHIP-8 Interpreter. I wrote mine originally in C++, but quickly gave up after seeing how
+                    absurdly complex C++ truly is.
+                </p>
+                <p>
+                    Later, I found the D Programming language. which promises to deliver a C/C++ like language with
+                    modern features, I got hooked. so I basically copied someone else's emulator, studied it, and then
+                    tried reimplementing it my way, and it worked pretty well. Sadly I've lost the code to this emulator
+                    (I didn't make any backups or have a mirror), so it is lost to time.
+                </p>
+                <p>
+                    The CHIP-8 was the only "major" project I've done in D that I completed, I have never finished
+                    anything in D ever again.
+                </p>
+                <h3>Introducing the NES</h3>
+                <p>
+                    I started working on a NES emulator in D in March 2019. I think it went until it runs a couple of
+                    test ROMs without a PPU, but as it turns out I didn't like D very much (The Standard Library was a
+                    mess, they're currently rewriting it as we speak).
+                </p>
+                <p>
+                    I jumped from D to C then to C++, and then finally Golang. Go was a language I tried in January
+                    2019, but didn't really resonated with me until I tried it out again for a bigger project (such as a
+                    NES emulator). It was simple, it had a better garbage collector than D, and my god it was wonderful,
+                    I finished the emulator and I've now released it in GitHub with a 0BSD license, you can find it <a
+                        href="https://github.com/IamRifki/flogNES">here</a>.
+                </p>
+                <h3>The RIIR epidemic</h3>
+                <p>
+                    Right before I finished my NES emulator in Go, I had found out about the Rust programming language,
+                    and oh boy did i bit hard into that language. I rewrote the code in Rust (non-idiomatic though
+                    because it was a sloppy Go to Rust translation), eventually I gave up on the RIIR, and switched back
+                    to Go.
+                </p>
+                <h3>The SNES</h3>
+                <p>
+                    The SNES is my favorite console. after completing my months long journey to make a NES emulator, I
+                    took a few weeks break, and started working on a SNES emulator, I initially started with C, but
+                    decided to give Rust another shot. it went much better as it was more idomatic rust (sadly, I still
+                    had to deal with the constraints that Rust has). there's not much to talk about it, it actually went
+                    faster than the creation of my NES emulator (I exclusively focused on it for 2 months, my advice,
+                    don't do that). anyway, the code's public <a href="https://github.com/IamRifki/s-econd-nes">here</a>
+                    under MIT.
+                </p>
+                <h3>The Future</h3>
+                <p>
+                    I currently have no plans to revisit EmuDev in the near future, but I recently had an idea to make a
+                    Dynamic Recompiler for the Gameboy (Like Corn N64 and andrewrk's Jamulator). but until that's
+                    realized, I'll be working on Games and Websites.
+                </p>
+                <h3>- IamRifki</h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
