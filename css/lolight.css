@@ -28,3 +28,12 @@
   color: #d46a84;
   font-style: italic;
 }
+
+@media (prefers-color-scheme: light) {
+  .ll-nam {
+    color: #3b2c33;
+  }
+  .ll-pct{
+    color: #3b2c33;
+  }
+}
