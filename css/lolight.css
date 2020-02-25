@@ -1,39 +1,30 @@
 .ll-nam {
   /* words */
-  color: #f0dde6;
+  color: #F3F3F3;
 }
 .ll-num {
   /* numbers */
-  color: #468dd4;
+  color: #ffb378;
 }
 .ll-str {
   /* strings */
-  color: #1b9e9e;
+  color: #ffe9aa;
 }
 .ll-rex {
   /* regular expressions */
-  color: #e06a26;
+  color: #63f2f1;
 }
 .ll-pct {
   /* operators, punctation */
-  color: #f0dde6;
+  color: #63f2f1;
 }
 .ll-key {
   /* keywords */
-  color: #d46a84;
+  color: #ff8080;
   font-weight: bold;
 }
 .ll-com {
   /* comments */
-  color: #d46a84;
+  color: #65b2ff;
   font-style: italic;
-}
-
-@media (prefers-color-scheme: light) {
-  .ll-nam {
-    color: #3b2c33;
-  }
-  .ll-pct{
-    color: #3b2c33;
-  }
 }
