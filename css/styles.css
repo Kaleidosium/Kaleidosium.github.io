@@ -3,7 +3,7 @@
 body {
   background-color: #1e1c31;
   font-family: "Cascadia", monospace;
-  color: #F3F3F3;
+  color: #f3f3f3;
   font-size: 17px;
   line-height: 1.6;
 }
@@ -79,13 +79,13 @@ a:hover {
 h1 {
   margin-bottom: 0;
   font-size: 33pt;
-  color: #F3F3F3;
+  color: #f3f3f3;
 }
 
 h2 {
   margin-bottom: 0;
   font-size: 20pt;
-  color: #F3F3F3;
+  color: #f3f3f3;
 }
 
 h3 {
@@ -103,7 +103,7 @@ a:hover > h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  border-bottom: 7.5px solid #A0E3FF;
+  border-bottom: 7.5px solid #a0e3ff;
 }
 
 .nav .right {
@@ -133,7 +133,7 @@ a:hover > h3 {
   }
 
   .nav {
-    border-bottom: 7.5px solid #A0E3FF;
+    border-bottom: 7.5px solid #a0e3ff;
   }
 
   .nav .right .link {
