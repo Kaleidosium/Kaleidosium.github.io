@@ -63,8 +63,15 @@ a:hover {
 }
 
 .error {
-  background-color: #ff8080;
+  background-color: #1e1c31;
   color: #1e1c31;
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.uwu {
+  background-color: #1e1c31;
+  color: hotpink;
   display: inline-block;
   padding: 0 5px;
 }
@@ -85,6 +92,11 @@ h3 {
   margin-bottom: 0;
   font-size: 18pt;
   color: #ffe9aa;
+}
+
+a:hover > h3 {
+  color: #ffe9aa;
+  text-decoration: underline;
 }
 
 .nav {
