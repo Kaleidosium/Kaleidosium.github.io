@@ -53,6 +53,13 @@ a:hover {
   padding: 0px 5px;
 }
 
+.quote {
+  background-color: #1e1c31;
+  color: #87ffff;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
 .code-block-title {
   background-color: #87ffff;
   color: #1e1c31;
@@ -73,7 +80,7 @@ a:hover {
   background-color: #1e1c31;
   color: hotpink;
   display: inline-block;
-  padding: 0 5px;
+  padding: 0 20px;
 }
 
 h1 {
