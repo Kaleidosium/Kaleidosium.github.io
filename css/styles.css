@@ -1,8 +1,8 @@
-@import "../font/cascadia/stylesheet.css";
+@import url("https://fonts.googleapis.com/css?family=Fira+Code&display=swap");
 
 body {
   background-color: #1e1c31;
-  font-family: "Cascadia", monospace;
+  font-family: "Fira Code", monospace;
   color: #f3f3f3;
   font-size: 17px;
   line-height: 1.6;
@@ -190,7 +190,7 @@ ul {
   background: none;
   border: none;
   padding: 10px 15px;
-  font-family: "Cascadia", monospace;
+  font-family: "Fira Code", monospace;
   white-space: pre;
   overflow: auto;
   user-select: text;
