@@ -19,7 +19,8 @@
   }
 }
 
-body, html {
+body,
+html {
   height: 100%;
   display: grid;
   overflow: hidden;
@@ -40,10 +41,6 @@ body {
 
 .alt-container {
   max-width: 750px;
-}
-
-.alt-container-wide {
-  max-width: calc((750px / 9) * 12);
 }
 
 .alt-box {
@@ -81,7 +78,7 @@ h3 {
 svg {
   height: 30px;
   padding: 5px;
-  color: #448DE7;
+  color: #448de7;
 }
 
 @media only screen and (max-width: 600px) {
