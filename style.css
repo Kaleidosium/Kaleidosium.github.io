@@ -82,12 +82,16 @@ h3 {
   padding-right: 5px;
 }
 
-.alt-links > a > svg, a {
+.alt-links > a > svg {
   color: #448de7;
 }
 
 .alt-pages > a > svg {
-  color: #FF6C7A;
+  color: #ff6c7a;
+}
+
+a {
+  color: #2bdb72;
 }
 
 @media only screen and (max-width: 600px) {
@@ -102,5 +106,10 @@ h3 {
 }
 
 img {
-  height: 300px;
+  aspect-ratio: attr(width) / attr(height);
+}
+
+figcaption {
+  color: var(--text-sub);
+  background: none;
 }
