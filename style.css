@@ -78,19 +78,11 @@ h3 {
   font-size: large;
 }
 
-.alt-links > a > svg,
-.alt-pages > a > svg {
-  height: 30px;
+a > .fa {
+  font-size: 30px !important;
   padding-left: 5px;
   padding-right: 5px;
-}
-
-.alt-links > a > svg {
   color: #448de7;
-}
-
-.alt-pages > a > svg {
-  color: #ff6c7a;
 }
 
 a {
