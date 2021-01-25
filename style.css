@@ -6,7 +6,7 @@
   --tile-width: 256px;
   --tile-height: 256px;
   --border-size: 10px;
-  --site-font: "Roboto Mono", "Lucida Console", Monaco, monospace;
+  --site-font: "JetBrains Mono", "Lucida Console", Monaco, monospace;
 }
 
 @keyframes scroll {
