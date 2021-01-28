@@ -78,7 +78,7 @@ h3 {
   font-size: large;
 }
 
-a > .fa {
+a > .fa-icon {
   font-size: 30px !important;
   padding-left: 5px;
   padding-right: 5px;
