@@ -34,7 +34,7 @@ body {
   font-family: var(--site-font);
   animation: scroll 8s infinite;
   animation-timing-function: linear;
-  transform: scale(90%);
+  transform: scale(100%);
 }
 
 .alt-wrapper {
