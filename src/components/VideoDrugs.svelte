@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  import { fade } from 'svelte/transition';
+  import { fade } from "svelte/transition";
   import {
     BackgroundLayer as BGLayer,
     Engine,
@@ -17,43 +17,43 @@
 
   onMount(() => {
     // This will load first by setting onLoad to True
-    setTimeout(() => onLoad = true, 50)
+    setTimeout(() => (onLoad = true), 50);
 
     // This will load second, initialise EBB's Engine
     setTimeout(() => {
-    const engine = new Engine(
-      [
-        new BGLayer(
-          randomIntFromInterval(BGLayer.MINIMUM_LAYER, BGLayer.MAXIMUM_LAYER)
-        ),
-        new BGLayer(
-          randomIntFromInterval(BGLayer.MINIMUM_LAYER, BGLayer.MAXIMUM_LAYER)
-        ),
-      ],
-      {
-        canvas,
-      }
-    );
-    engine.animate();
-    }, 100)
+      const engine = new Engine(
+        [
+          new BGLayer(
+            randomIntFromInterval(BGLayer.MINIMUM_LAYER, BGLayer.MAXIMUM_LAYER)
+          ),
+          new BGLayer(
+            randomIntFromInterval(BGLayer.MINIMUM_LAYER, BGLayer.MAXIMUM_LAYER)
+          ),
+        ],
+        {
+          canvas,
+        }
+      );
+      engine.animate();
+    }, 100);
   });
 </script>
-
-<style>
-  canvas {
-    position: fixed;
-    display: block;
-    height: 100vh; 
-    width: 100vw; 
-		image-rendering: pixelated;
-    z-index: -1;
-	}
-</style>
 
 <!-- 
   If the website is already loaded, 
   insert the canvas declaration 
 -->
 {#if onLoad}
-  <canvas bind:this={canvas} in:fade="{{ duration:3500 }}" />
+  <canvas bind:this={canvas} in:fade={{ duration: 3500 }} />
 {/if}
+
+<style>
+  canvas {
+    position: fixed;
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    image-rendering: pixelated;
+    z-index: -1;
+  }
+</style>
