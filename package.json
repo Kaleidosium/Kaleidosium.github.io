@@ -5,11 +5,17 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public --no-clear"
+    "start": "sirv public --no-clear",
+    "fix": "npx eslint --fix \"{,!(node_modules|public)/**/}*.{js,svelte}\"",
+    "format": "npx prettier --write \"{,!(node_modules|public)/**/}*.{js,svelte}\""
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
+    "eslint": "^8.1.0",
+    "eslint-plugin-svelte3": "^3.2.1",
+    "prettier": "^2.4.1",
+    "prettier-plugin-svelte": "^2.4.0",
     "rollup": "^2.3.4",
     "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-livereload": "^2.0.0",
@@ -18,7 +24,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "earthbound-battle-backgrounds-rollup": "^3.0.3",
+    "earthbound-battle-backgrounds-rollup": "^3.0.4",
     "sirv-cli": "^1.0.0"
   }
 }
