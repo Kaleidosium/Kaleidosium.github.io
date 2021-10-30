@@ -1,18 +1,26 @@
 <script>
   import { onMount } from "svelte";
+  import { fade } from 'svelte/transition';
   import {
     BackgroundLayer as BGLayer,
     Engine,
   } from "earthbound-battle-backgrounds-rollup";
 
+  // Define some variables
   let canvas;
+  let onLoad = false;
 
+  // Get random integer from a min and a max
   function randomIntFromInterval(min, max) {
-    // min and max included
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
 
   onMount(() => {
+    // This will load first by setting onLoad to True
+    setTimeout(() => onLoad = true, 50)
+
+    // This will load second, initialise EBB's Engine
+    setTimeout(() => {
     const engine = new Engine(
       [
         new BGLayer(
@@ -27,7 +35,25 @@
       }
     );
     engine.animate();
+    }, 100)
   });
 </script>
 
-<canvas bind:this={canvas} width={256} height={224} />
+<style>
+  canvas {
+    position: fixed;
+    display: block;
+    height: 100vh; 
+    width: 100vw; 
+		image-rendering: pixelated;
+    z-index: -1;
+	}
+</style>
+
+<!-- 
+  If the website is already loaded, 
+  insert the canvas declaration 
+-->
+{#if onLoad}
+  <canvas bind:this={canvas} in:fade="{{ duration:3500 }}" />
+{/if}
