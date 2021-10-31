@@ -1,5 +1,7 @@
 <script>
   import { onMount } from "svelte";
+  import Fa from 'svelte-fa'
+  import { faTwitter, faGithubAlt, faDeviantart, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
   export let parsedUrl;
   export let videoDrugsDisable;
@@ -94,22 +96,18 @@
         <div class="field-row">
           <button
             onclick="window.open('https://twitter.com/altOverflow','_blank')"
-            >Go to Twitter</button
+            ><Fa icon={faTwitter} size="lg" /></button
           >
           <button onclick="window.open('https://github.com/IamRifki/','_blank')"
-            >Go to GitHub</button
+            ><Fa icon={faGithubAlt} size="lg" /></button
           >
           <button
-            onclick="window.open('https://furaffinity.net/user/daniaascii/','_blank')"
-            >Go to FurAffinity</button
-          >
-          <button
-            onclick="window.open('https://twitter.com/art_overflow','_blank')"
-            >Go to Art Twitter</button
+            onclick="window.open('https://www.deviantart.com/daniaascii','_blank')"
+            ><Fa icon={faDeviantart} size="lg" /></button
           >
           <button
             onclick="window.open('https://www.youtube.com/c/DaniaRifki/','_blank')"
-            >Go to YouTube</button
+            ><Fa icon={faYoutube} size="lg" /></button
           >
         </div>
       </fieldset>

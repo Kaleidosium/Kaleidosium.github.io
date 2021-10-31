@@ -10,8 +10,10 @@
 </script>
 
 <!-- Check if VideoDrugs should be disabled -->
-{#if window.innerWidth <= "700" || videoDrugsDisable }
-  <VideoDrugs />
+{#if window.innerWidth >= "650"} 
+  {#if videoDrugsDisable }
+    <VideoDrugs />
+  {/if}
 {/if}
 
 <Layout bind:parsedUrl bind:videoDrugsDisable />
