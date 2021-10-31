@@ -1,4 +1,6 @@
 <script>
+  import { onMount } from "svelte";
+
   export let parsedUrl;
   export let videoDrugsDisable;
 
@@ -6,6 +8,54 @@
     document.getElementById("window-container").style.display = "none";
   }
 
+  function dragElement(elmnt) {
+    let pos1 = 0;
+    let pos2 = 0;
+    let pos3 = 0;
+    let pos4 = 0;
+    if (document.getElementById(elmnt.id + "header")) {
+      // if present, the header is where you move the DIV from:
+      document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+    } else {
+      // otherwise, move the DIV from anywhere inside the DIV:
+      elmnt.onmousedown = dragMouseDown;
+    }
+
+    function dragMouseDown(e) {
+      e = e || window.event;
+      e.preventDefault();
+      // get the mouse cursor position at startup:
+      pos3 = e.clientX;
+      pos4 = e.clientY;
+      document.onmouseup = closeDragElement;
+      // call a function whenever the cursor moves:
+      document.onmousemove = elementDrag;
+    }
+
+    function elementDrag(e) {
+      e = e || window.event;
+      e.preventDefault();
+      // calculate the new cursor position:
+      pos1 = pos3 - e.clientX;
+      pos2 = pos4 - e.clientY;
+      pos3 = e.clientX;
+      pos4 = e.clientY;
+      // set the element's new position:
+      elmnt.style.top = elmnt.offsetTop - pos2 + "px";
+      elmnt.style.left = elmnt.offsetLeft - pos1 + "px";
+    }
+
+    function closeDragElement() {
+      // stop moving when mouse button is released:
+      document.onmouseup = null;
+      document.onmousemove = null;
+    }
+  }
+
+  onMount(() => {
+    dragElement(document.getElementById("main-window"));
+    console.log("ASSERT!")
+  });
 </script>
 
 <div id="window-container">
@@ -30,19 +80,37 @@
           <img id="icon-image" src="favicon.png" alt="Windows 98-styled Icon" />
         </div>
       </div>
-      <span style="padding: 0 3rem"></span>
+      <span style="padding: 0 3rem" />
       <fieldset>
         <legend>Options</legend>
         <div class="field-row">
-          <input type=checkbox bind:checked={videoDrugsDisable} id="videodrugs-checkbox">
+          <input
+            type="checkbox"
+            bind:checked={videoDrugsDisable}
+            id="videodrugs-checkbox"
+          />
           <label for="videodrugs-checkbox">Enable Video Drugs</label>
         </div>
         <div class="field-row">
-          <button onclick="window.open('https://twitter.com/altOverflow','_blank')">Go to Twitter</button>
-          <button onclick="window.open('https://github.com/IamRifki/','_blank')">Go to GitHub</button>
-          <button onclick="window.open('https://furaffinity.net/user/daniaascii/','_blank')">Go to FurAffinity</button>
-          <button onclick="window.open('https://twitter.com/art_overflow','_blank')">Go to Art Twitter</button>
-          <button onclick="window.open('https://www.youtube.com/c/DaniaRifki/','_blank')">Go to YouTube</button>
+          <button
+            onclick="window.open('https://twitter.com/altOverflow','_blank')"
+            >Go to Twitter</button
+          >
+          <button onclick="window.open('https://github.com/IamRifki/','_blank')"
+            >Go to GitHub</button
+          >
+          <button
+            onclick="window.open('https://furaffinity.net/user/daniaascii/','_blank')"
+            >Go to FurAffinity</button
+          >
+          <button
+            onclick="window.open('https://twitter.com/art_overflow','_blank')"
+            >Go to Art Twitter</button
+          >
+          <button
+            onclick="window.open('https://www.youtube.com/c/DaniaRifki/','_blank')"
+            >Go to YouTube</button
+          >
         </div>
       </fieldset>
     </div>
@@ -54,11 +122,14 @@
     position: relative;
     height: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .window {
     margin: auto;
   }
   #main-window {
+    position: absolute;
     width: 45vw;
   }
   .window-body {
