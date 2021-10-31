@@ -85,6 +85,7 @@
       <span style="padding: 0 3rem" />
       <fieldset>
         <legend>Options</legend>
+        {#if window.innerWidth >= "850"} 
         <div class="field-row">
           <input
             type="checkbox"
@@ -93,6 +94,7 @@
           />
           <label for="videodrugs-checkbox">Enable Video Drugs</label>
         </div>
+        {/if}
         <div class="field-row">
           <button
             onclick="window.open('https://twitter.com/altOverflow','_blank')"
@@ -131,7 +133,7 @@
     width: 45vw;
   }
   .window-body {
-    padding: 0.5rem;
+    padding: 0.1rem;
   }
   .flex-container {
     display: flex;
@@ -153,7 +155,14 @@
   }
   @media only screen and (max-width: 850px) {
     #main-window {
-      width: 80vw;
+      width: 85vw;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .field-row > button {
+      height: 100%; 
+      width: 100%; 
+      object-fit: contain;
     }
   }
 </style>
