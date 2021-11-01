@@ -1,7 +1,12 @@
 <script>
   import { onMount } from "svelte";
-  import Fa from 'svelte-fa'
-  import { faTwitter, faGithubAlt, faDeviantart, faYoutube } from '@fortawesome/free-brands-svg-icons'
+  import Fa from "svelte-fa";
+  import {
+    faTwitter,
+    faGithubAlt,
+    faDeviantart,
+    faYoutube,
+  } from "@fortawesome/free-brands-svg-icons";
 
   export let parsedUrl;
   export let videoDrugsDisable;
@@ -78,37 +83,45 @@
           </span>
         </div>
         <div class="col">
-          <img id="icon-image" src="favicon.png" alt="Windows 98-styled Icon" />
+          <img
+            id="icon-image"
+            src="favicon.png"
+            width="144"
+            height="144"
+            alt="Windows 98-styled Icon"
+          />
         </div>
       </div>
       <span style="padding: 0 3rem" />
       <fieldset>
         <legend>Options</legend>
-        {#if window.innerWidth >= "850"} 
-        <div class="field-row">
-          <input
-            type="checkbox"
-            bind:checked={videoDrugsDisable}
-            id="videodrugs-checkbox"
-          />
-          <label for="videodrugs-checkbox">Enable Video Drugs</label>
-        </div>
+        {#if window.innerWidth >= "850"}
+          <div class="field-row">
+            <input
+              type="checkbox"
+              bind:checked={videoDrugsDisable}
+              id="videodrugs-checkbox"
+            />
+            <label for="videodrugs-checkbox">Enable Video Drugs</label>
+          </div>
         {/if}
         <div class="field-row">
           <button
             onclick="window.open('https://twitter.com/altOverflow','_blank')"
-            ><Fa icon={faTwitter} size="lg" /></button
+            aria-label="My Twitter"><Fa icon={faTwitter} size="lg" /></button
           >
-          <button onclick="window.open('https://github.com/IamRifki/','_blank')"
-            ><Fa icon={faGithubAlt} size="lg" /></button
+          <button
+            onclick="window.open('https://github.com/IamRifki/','_blank')"
+            aria-label="My GitHub"><Fa icon={faGithubAlt} size="lg" /></button
           >
           <button
             onclick="window.open('https://www.deviantart.com/daniaascii','_blank')"
+            aria-label="My DeviantArt"
             ><Fa icon={faDeviantart} size="lg" /></button
           >
           <button
             onclick="window.open('https://www.youtube.com/c/DaniaRifki/','_blank')"
-            ><Fa icon={faYoutube} size="lg" /></button
+            aria-label="My YouTube"><Fa icon={faYoutube} size="lg" /></button
           >
         </div>
       </fieldset>
@@ -159,8 +172,8 @@
   }
   @media only screen and (max-width: 700px) {
     .field-row > button {
-      height: 100%; 
-      width: 100%; 
+      height: 100%;
+      width: 100%;
       object-fit: contain;
     }
   }
