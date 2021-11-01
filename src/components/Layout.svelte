@@ -95,35 +95,35 @@
       <span style="padding: 0 1rem" />
       <fieldset>
         <legend>Options</legend>
-          <div class="field-row" id="videodrugs-checkbox-row">
-            <input
-              type="checkbox"
-              bind:checked={videoDrugsDisable}
-              id="videodrugs-checkbox"
-            />
-            <label for="videodrugs-checkbox">Enable Video Drugs</label>
-          </div>
+        <div class="field-row" id="videodrugs-checkbox-row">
+          <input
+            type="checkbox"
+            bind:checked={videoDrugsDisable}
+            id="videodrugs-checkbox"
+          />
+          <label for="videodrugs-checkbox">Enable Video Drugs</label>
+        </div>
         <div class="field-row">
           <div class="button-flex-container">
-          <button
-            onclick="window.open('https://twitter.com/altOverflow','_blank')"
-            aria-label="My Twitter"><Fa icon={faTwitter} size="lg" /></button
-          >
-          <button
-            onclick="window.open('https://github.com/IamRifki/','_blank')"
-            aria-label="My GitHub"><Fa icon={faGithubAlt} size="lg" /></button
-          >
-          <button
-            onclick="window.open('https://www.deviantart.com/daniaascii','_blank')"
-            aria-label="My DeviantArt"
-            ><Fa icon={faDeviantart} size="lg" /></button
-          >
-          <button
-            onclick="window.open('https://www.youtube.com/c/DaniaRifki/','_blank')"
-            aria-label="My YouTube"><Fa icon={faYoutube} size="lg" /></button
-          >
+            <button
+              onclick="window.open('https://twitter.com/altOverflow','_blank')"
+              aria-label="My Twitter"><Fa icon={faTwitter} size="lg" /></button
+            >
+            <button
+              onclick="window.open('https://github.com/IamRifki/','_blank')"
+              aria-label="My GitHub"><Fa icon={faGithubAlt} size="lg" /></button
+            >
+            <button
+              onclick="window.open('https://www.deviantart.com/daniaascii','_blank')"
+              aria-label="My DeviantArt"
+              ><Fa icon={faDeviantart} size="lg" /></button
+            >
+            <button
+              onclick="window.open('https://www.youtube.com/c/DaniaRifki/','_blank')"
+              aria-label="My YouTube"><Fa icon={faYoutube} size="lg" /></button
+            >
+          </div>
         </div>
-      </div>
       </fieldset>
     </div>
   </div>
@@ -177,9 +177,9 @@
   }
   @media only screen and (max-width: 1100px) {
     #main-window {
-    position: absolute;
-    width: 50vw;
-  }
+      position: absolute;
+      width: 50vw;
+    }
   }
   @media only screen and (max-width: 850px) {
     #main-window {

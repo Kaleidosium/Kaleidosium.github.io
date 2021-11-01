@@ -10,8 +10,8 @@
 </script>
 
 <!-- Check if VideoDrugs should be disabled -->
-{#if window.innerWidth >= "850"} 
-  {#if videoDrugsDisable }
+{#if window.innerWidth >= "850"}
+  {#if videoDrugsDisable}
     <VideoDrugs />
   {/if}
 {/if}
