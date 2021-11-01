@@ -56,7 +56,6 @@
 
   onMount(() => {
     dragElement(document.getElementById("main-window"));
-    console.log("ASSERT!")
   });
 </script>
 
