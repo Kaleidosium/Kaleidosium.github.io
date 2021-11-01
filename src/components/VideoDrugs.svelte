@@ -44,7 +44,7 @@
   insert the canvas declaration 
 -->
 {#if onLoad}
-  <canvas bind:this={canvas} in:fade={{ duration: 3500 }} />
+  <canvas bind:this={canvas} width="256px" height="224px" in:fade={{ duration: 3500 }} />
 {/if}
 
 <style>
