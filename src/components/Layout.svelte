@@ -170,6 +170,7 @@
   }
   .button-flex-container > button {
     padding: 0.25rem;
+    margin-right: 0.5rem;
   }
   .button-flex-container {
     display: flex;
