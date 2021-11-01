@@ -92,11 +92,10 @@
           />
         </div>
       </div>
-      <span style="padding: 0 3rem" />
+      <span style="padding: 0 1rem" />
       <fieldset>
         <legend>Options</legend>
-        {#if window.innerWidth >= "850"}
-          <div class="field-row">
+          <div class="field-row" id="videodrugs-checkbox-row">
             <input
               type="checkbox"
               bind:checked={videoDrugsDisable}
@@ -104,8 +103,8 @@
             />
             <label for="videodrugs-checkbox">Enable Video Drugs</label>
           </div>
-        {/if}
         <div class="field-row">
+          <div class="button-flex-container">
           <button
             onclick="window.open('https://twitter.com/altOverflow','_blank')"
             aria-label="My Twitter"><Fa icon={faTwitter} size="lg" /></button
@@ -124,6 +123,7 @@
             aria-label="My YouTube"><Fa icon={faYoutube} size="lg" /></button
           >
         </div>
+      </div>
       </fieldset>
     </div>
   </div>
@@ -142,7 +142,7 @@
   }
   #main-window {
     position: absolute;
-    width: 45vw;
+    width: 40vw;
   }
   .window-body {
     padding: 0.1rem;
@@ -160,20 +160,51 @@
   }
   #header-name {
     margin: 0 0;
-    font-size: 10vh;
+    font-size: 5rem;
   }
   #subheader {
-    font-size: 2vh;
+    font-size: 1.3rem;
+  }
+  fieldset * {
+    font-size: 14px !important;
+  }
+  .button-flex-container > button {
+    padding: 0.25rem;
+  }
+  .button-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media only screen and (max-width: 1100px) {
+    #main-window {
+    position: absolute;
+    width: 50vw;
+  }
   }
   @media only screen and (max-width: 850px) {
     #main-window {
       width: 85vw;
     }
+    #videodrugs-checkbox-row {
+      display: none;
+    }
   }
-  @media only screen and (max-width: 700px) {
-    .field-row > button {
+  @media only screen and (max-width: 600px) {
+    #icon-image {
+      display: none;
+    }
+    .field-row {
+      display: block;
+      margin: 0;
+    }
+    .button-flex-container > button {
       height: 100%;
       width: 100%;
+      margin: 0.25rem 0;
+      object-fit: contain;
+    }
+    #header-name {
+      font-size: 20vw;
       object-fit: contain;
     }
   }
