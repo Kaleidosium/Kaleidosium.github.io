@@ -16,48 +16,38 @@
   }
 
   // From https://stackoverflow.com/a/41737171
-  Element.prototype.drag = function (setupParams) {
-    let setup = setupParams || {};
+  // This version doesn't include the Events, but it's fine for here
+  Element.prototype.drag = function (setupParameters) {
+    const setup = setupParameters || {};
 
-    const mousemove = (e) => {
-      // document mousemove
-
-      this.style.left = `${e.clientX - this.dragStartX}px`;
-      this.style.top = `${e.clientY - this.dragStartY}px`;
-
-      setup.ondrag && setup.ondrag(e); // ondrag event
+    // document mousemove
+    const mousemove = ({ clientX, clientY }) => {
+      this.style.left = `${clientX - this.dragStartX}px`;
+      this.style.top = `${clientY - this.dragStartY}px`;
     };
 
+    // document mouseup
     const mouseup = (e) => {
-      // document mouseup
-
       document.removeEventListener("mousemove", mousemove);
       document.removeEventListener("mouseup", mouseup);
-
-      handle.classList.remove("dragging");
-
-      setup.ondragend && setup.ondragend(e); // ondragend event
     };
 
-    let handle = setup.handle || this;
+    const handle = setup.handle || this;
 
-    handle.addEventListener("mousedown", (e) => {
-      // element mousedown
-
-      this.dragStartX = e.offsetX;
-      this.dragStartY = e.offsetY;
+    // element mousedown
+    handle.addEventListener("mousedown", ({ offsetX, offsetY }) => {
+      this.dragStartX = offsetX;
+      this.dragStartY = offsetY;
 
       document.addEventListener("mousemove", mousemove);
       document.addEventListener("mouseup", mouseup);
 
       handle.classList.add("dragging");
-
-      setup.ondragstart && setup.ondragstart(e); // ondragstart event
     });
 
     handle.classList.add("draggable");
 
-    setup.ondraginit && setup.ondraginit(e); // ondraginit event
+    this.style.position = "absolute"; // fixed might work as well
   };
 
   onMount(() => {
