@@ -31,3 +31,13 @@ input,
 button {
   cursor: pointer;
 }
+
+/* Used for the Draggable "Window" */
+.draggable {
+  cursor: grab;
+}
+
+.draggable.dragging {
+  user-select: none;
+  cursor: grabbing;
+}

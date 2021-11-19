@@ -15,52 +15,56 @@
     document.getElementById("window-container").style.display = "none";
   }
 
-  function dragElement(elmnt) {
-    let pos1 = 0;
-    let pos2 = 0;
-    let pos3 = 0;
-    let pos4 = 0;
-    if (document.getElementById(elmnt.id + "header")) {
-      // if present, the header is where you move the DIV from:
-      document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-    } else {
-      // otherwise, move the DIV from anywhere inside the DIV:
-      elmnt.onmousedown = dragMouseDown;
-    }
+  // From https://stackoverflow.com/a/41737171
+  Element.prototype.drag = function (setupParams) {
+    let setup = setupParams || {};
 
-    function dragMouseDown(e) {
-      e = e || window.event;
-      e.preventDefault();
-      // get the mouse cursor position at startup:
-      pos3 = e.clientX;
-      pos4 = e.clientY;
-      document.onmouseup = closeDragElement;
-      // call a function whenever the cursor moves:
-      document.onmousemove = elementDrag;
-    }
+    const mousemove = (e) => {
+      // document mousemove
 
-    function elementDrag(e) {
-      e = e || window.event;
-      e.preventDefault();
-      // calculate the new cursor position:
-      pos1 = pos3 - e.clientX;
-      pos2 = pos4 - e.clientY;
-      pos3 = e.clientX;
-      pos4 = e.clientY;
-      // set the element's new position:
-      elmnt.style.top = elmnt.offsetTop - pos2 + "px";
-      elmnt.style.left = elmnt.offsetLeft - pos1 + "px";
-    }
+      this.style.left = `${e.clientX - this.dragStartX}px`;
+      this.style.top = `${e.clientY - this.dragStartY}px`;
 
-    function closeDragElement() {
-      // stop moving when mouse button is released:
-      document.onmouseup = null;
-      document.onmousemove = null;
-    }
-  }
+      setup.ondrag && setup.ondrag(e); // ondrag event
+    };
+
+    const mouseup = (e) => {
+      // document mouseup
+
+      document.removeEventListener("mousemove", mousemove);
+      document.removeEventListener("mouseup", mouseup);
+
+      handle.classList.remove("dragging");
+
+      setup.ondragend && setup.ondragend(e); // ondragend event
+    };
+
+    let handle = setup.handle || this;
+
+    handle.addEventListener("mousedown", (e) => {
+      // element mousedown
+
+      this.dragStartX = e.offsetX;
+      this.dragStartY = e.offsetY;
+
+      document.addEventListener("mousemove", mousemove);
+      document.addEventListener("mouseup", mouseup);
+
+      handle.classList.add("dragging");
+
+      setup.ondragstart && setup.ondragstart(e); // ondragstart event
+    });
+
+    handle.classList.add("draggable");
+
+    setup.ondraginit && setup.ondraginit(e); // ondraginit event
+  };
 
   onMount(() => {
-    dragElement(document.getElementById("main-window"));
+    const setup = {
+      handle: document.querySelector(".title-bar"),
+    };
+    document.querySelector(".window").drag(setup);
   });
 </script>
 
