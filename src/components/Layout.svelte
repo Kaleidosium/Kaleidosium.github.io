@@ -1,12 +1,5 @@
 <script>
   import { onMount } from "svelte";
-  import Fa from "svelte-fa";
-  import {
-    faTwitter,
-    faGithubAlt,
-    faDeviantart,
-    faYoutube,
-  } from "@fortawesome/free-brands-svg-icons";
 
   export let parsedUrl;
   export let videoDrugsDisable;
@@ -71,9 +64,9 @@
     <div class="window-body">
       <div class="flex-container">
         <div class="col">
-          <h1 id="header-name">IamRifki</h1>
+          <h1 id="header-name">Kaleidovium</h1>
           <span id="subheader">
-            Also known as <u>alt</u>Overflow. Programmer/Artist from Jakarta.
+            Formally known as Dania Rifki. Programmer/Artist from Jakarta.
           </span>
         </div>
         <div class="col">
@@ -98,25 +91,10 @@
           <label for="videodrugs-checkbox">Enable Video Drugs</label>
         </div>
         <div class="field-row">
-          <div class="button-flex-container">
-            <button
-              onclick="window.open('https://twitter.com/altOverflow','_blank')"
-              aria-label="My Twitter"><Fa icon={faTwitter} size="lg" /></button
-            >
-            <button
-              onclick="window.open('https://github.com/IamRifki/','_blank')"
-              aria-label="My GitHub"><Fa icon={faGithubAlt} size="lg" /></button
-            >
-            <button
-              onclick="window.open('https://www.deviantart.com/daniaascii','_blank')"
-              aria-label="My DeviantArt"
-              ><Fa icon={faDeviantart} size="lg" /></button
-            >
-            <button
-              onclick="window.open('https://www.youtube.com/c/DaniaRifki/','_blank')"
-              aria-label="My YouTube"><Fa icon={faYoutube} size="lg" /></button
-            >
-          </div>
+          <a href="https://twitter.com/kaleidovium">Twitter</a>
+          <a href="https://github.com/kaleidovium/">GitHub</a>
+          <a href="https://www.deviantart.com/daniaascii">DeviantArt</a>
+          <a href="https://www.youtube.com/c/DaniaRifki/">YouTube</a>
         </div>
       </fieldset>
     </div>
@@ -161,14 +139,6 @@
   }
   fieldset * {
     font-size: 14px !important;
-  }
-  .button-flex-container > button {
-    padding: 0.25rem;
-    margin-right: 0.5rem;
-  }
-  .button-flex-container {
-    display: flex;
-    flex-wrap: wrap;
   }
   @media only screen and (max-width: 1100px) {
     #main-window {

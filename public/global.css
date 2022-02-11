@@ -34,7 +34,7 @@ button {
 
 /* Used for the Draggable "Window" */
 .draggable {
-  cursor: grab;
+  cursor: move;
 }
 
 .draggable.dragging {

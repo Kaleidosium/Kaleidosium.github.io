@@ -1,5 +1,5 @@
 {
-  "name": "iamrifki.github.io",
+  "name": "kaleidovium.github.io",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -26,9 +26,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "earthbound-battle-backgrounds-rollup": "^3.0.4",
-    "sirv-cli": "^1.0.0",
-    "svelte-fa": "^2.3.3"
+    "sirv-cli": "^1.0.0"
   }
 }
