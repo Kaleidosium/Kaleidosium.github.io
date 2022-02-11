@@ -54,7 +54,16 @@
 <div id="window-container">
   <div class="window" id="main-window">
     <div class="title-bar">
-      <div class="title-bar-text">{parsedUrl}</div>
+      <div class="title-bar-text">
+        <img
+          id="icon-image"
+          src="favicon.png"
+          width="16px"
+          height="16px"
+          alt="Windows 98-styled Icon"
+        />
+        {parsedUrl}
+      </div>
       <div class="title-bar-controls">
         <!-- <button aria-label="Minimize"></button>
         <button aria-label="Maximize"></button> -->
@@ -64,20 +73,11 @@
     <div class="window-body">
       <div class="flex-container">
         <div class="col">
-          <h1 id="header-name">Kaleidovium</h1>
-          <span id="subheader">
-            Formally known as Dania Rifki. Programmer/Artist from Jakarta.
-          </span>
-        </div>
-        <div class="col">
-          <img
-            id="icon-image"
-            src="favicon.png"
-            width="144"
-            height="144"
-            alt="Windows 98-styled Icon"
-          />
-        </div>
+        <h1 id="header-name">Kaleidovium</h1>
+        <span id="subheader">
+          Formally known as Dania Rifki. Programmer/Artist from Jakarta.
+        </span>
+      </div>
       </div>
       <span style="padding: 0 1rem" />
       <fieldset>
@@ -90,12 +90,15 @@
           />
           <label for="videodrugs-checkbox">Enable Video Drugs</label>
         </div>
+      </fieldset>
+      <fieldset>
+        <legend>Links</legend>
         <div class="field-row">
           <a href="https://twitter.com/kaleidovium">Twitter</a>
           <a href="https://github.com/kaleidovium/">GitHub</a>
           <a href="https://www.deviantart.com/daniaascii">DeviantArt</a>
           <a href="https://www.youtube.com/c/DaniaRifki/">YouTube</a>
-        </div>
+          </div>
       </fieldset>
     </div>
   </div>
@@ -125,9 +128,10 @@
   }
   #icon-image {
     width: 100%;
-    max-width: 125px;
+    max-width: 12px;
     height: auto;
-    float: right;
+    float: left;
+    padding-right: 5px;
     image-rendering: crisp-edges;
   }
   #header-name {
@@ -135,20 +139,26 @@
     font-size: 5rem;
   }
   #subheader {
-    font-size: 1.3rem;
+    font-size: 16px !important;
   }
   fieldset * {
     font-size: 14px !important;
   }
-  @media only screen and (max-width: 1100px) {
+  @media only screen and (max-width: 1300px) {
     #main-window {
       position: absolute;
       width: 50vw;
     }
   }
+  @media only screen and (max-width: 1100px) {
+    #main-window {
+      position: absolute;
+      width: 60vw;
+    }
+  }
   @media only screen and (max-width: 850px) {
     #main-window {
-      width: 85vw;
+      width: 80vw;
     }
     #videodrugs-checkbox-row {
       display: none;
@@ -162,14 +172,8 @@
       display: block;
       margin: 0;
     }
-    .button-flex-container > button {
-      height: 100%;
-      width: 100%;
-      margin: 0.25rem 0;
-      object-fit: contain;
-    }
     #header-name {
-      font-size: 20vw;
+      font-size: 10vw;
       object-fit: contain;
     }
   }
