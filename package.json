@@ -8,7 +8,8 @@
     "start": "sirv public --no-clear",
     "fix": "npx eslint --fix \"{,!(node_modules|public)/**/}*.{js,svelte}\"",
     "format": "npx prettier --write \"{,!(node_modules|public)/**/}*.{js,svelte}\"",
-    "deploy": "node ./gh-pages.js"
+    "deploy": "node ./gh-pages.js",
+    "publish": "npm run build && npm run deploy"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
