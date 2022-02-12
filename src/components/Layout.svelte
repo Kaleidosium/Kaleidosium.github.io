@@ -73,7 +73,7 @@
     <div class="window-body">
       <div class="flex-container">
         <div class="col">
-        <h1 id="header-name">Kaleidovium</h1>
+        <h1 id="header-name">kaleidosium</h1>
         <span id="subheader">
           Formally known as Dania Rifki. Programmer/Artist from Jakarta.
         </span>
@@ -94,8 +94,8 @@
       <fieldset>
         <legend>Links</legend>
         <div class="field-row">
-          <a href="https://twitter.com/kaleidovium">Twitter</a>
-          <a href="https://github.com/kaleidovium/">GitHub</a>
+          <a href="https://twitter.com/kaleidosium">Twitter</a>
+          <a href="https://github.com/kaleidosium/">GitHub</a>
           <a href="https://www.deviantart.com/daniaascii">DeviantArt</a>
           <a href="https://www.youtube.com/c/DaniaRifki/">YouTube</a>
           </div>
