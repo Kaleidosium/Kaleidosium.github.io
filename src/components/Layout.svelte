@@ -73,7 +73,7 @@
     <div class="window-body">
       <div class="flex-container">
         <div class="col">
-        <h1 id="header-name">kaleidosium</h1>
+        <h1 id="header-name">Kaleidosium</h1>
         <span id="subheader">
           Formally known as Dania Rifki. Programmer/Artist from Jakarta.
         </span>
