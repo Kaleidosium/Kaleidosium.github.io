@@ -58,9 +58,10 @@
         <img
           id="icon-image"
           src="favicon.png"
-          width="16px"
-          height="16px"
+          width="32px"
+          height="32px"
           alt="Windows 98-styled Icon"
+          style="image-rendering: pixelated"
         />
         {parsedUrl}
       </div>
@@ -73,11 +74,11 @@
     <div class="window-body">
       <div class="flex-container">
         <div class="col">
-        <h1 id="header-name">Kaleidosium</h1>
-        <span id="subheader">
-          Formally known as Dania Rifki. Programmer/Artist from Jakarta.
-        </span>
-      </div>
+          <h1 id="header-name">Kaleidosium</h1>
+          <span id="subheader">
+            Formally known as Dania Rifki. Programmer/Artist from Jakarta.
+          </span>
+        </div>
       </div>
       <span style="padding: 0 1rem" />
       <fieldset>
@@ -98,7 +99,7 @@
           <a href="https://github.com/kaleidosium/">GitHub</a>
           <a href="https://www.deviantart.com/daniaascii">DeviantArt</a>
           <a href="https://www.youtube.com/c/DaniaRifki/">YouTube</a>
-          </div>
+        </div>
       </fieldset>
     </div>
   </div>
