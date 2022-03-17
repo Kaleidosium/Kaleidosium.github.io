@@ -7,9 +7,7 @@
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear",
     "fix": "npx eslint --fix \"{,!(node_modules|public)/**/}*.{js,svelte}\"",
-    "format": "npx prettier --write \"{,!(node_modules|public)/**/}*.{js,svelte}\"",
-    "deploy": "node ./gh-pages.js",
-    "publish": "npm run build && npm run deploy"
+    "format": "npx prettier --write \"{,!(node_modules|public)/**/}*.{js,svelte}\""
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.2",
