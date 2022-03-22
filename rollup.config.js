@@ -41,7 +41,6 @@ export default {
     file: "public/build/bundle.js",
     globals: {
       "earthbound-battle-backgrounds-rollup": "EBB",
-      "@fortawesome/free-brands-svg-icons": "fab",
     },
   },
   plugins: [
@@ -63,7 +62,7 @@ export default {
     // https://github.com/rollup/plugins/tree/master/packages/commonjs
     resolve({
       browser: true,
-      dedupe: ["svelte", "@fortawesome/free-brands-svg-icons"],
+      dedupe: ["svelte"],
     }),
     commonjs({
       esmExternals: { "earthbound-battle-backgrounds-rollup": true },
