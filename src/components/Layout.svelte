@@ -97,7 +97,7 @@
         <div class="field-row">
           <a href="https://twitter.com/kaleidosium">Twitter</a>
           <a href="https://github.com/kaleidosium/">GitHub</a>
-          <a href="https://www.deviantart.com/daniaascii">DeviantArt</a>
+          <a href="https://kaleidosium.newgrounds.com/">Newgrounds</a>
           <a href="https://www.youtube.com/c/DaniaRifki/">YouTube</a>
         </div>
       </fieldset>
