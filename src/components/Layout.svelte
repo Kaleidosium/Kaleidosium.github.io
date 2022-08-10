@@ -81,7 +81,7 @@
         </div>
       </div>
       <span style="padding: 0 1rem" />
-      <fieldset>
+      <fieldset id="fieldset-options">
         <legend>Options</legend>
         <div class="field-row" id="videodrugs-checkbox-row">
           <input
@@ -92,7 +92,7 @@
           <label for="videodrugs-checkbox">Enable Video Drugs</label>
         </div>
       </fieldset>
-      <fieldset>
+      <fieldset id="fieldset-links">
         <legend>Links</legend>
         <div class="field-row">
           <a href="https://twitter.com/kaleidosium">Twitter</a>
@@ -161,7 +161,7 @@
     #main-window {
       width: 80vw;
     }
-    #videodrugs-checkbox-row {
+    #fieldset-options, #videodrugs-checkbox-row {
       display: none;
     }
   }
