@@ -9,43 +9,55 @@
   }
 
   // From https://stackoverflow.com/a/41737171
-  // This version doesn't include the Events, but it's fine for here
   Element.prototype.drag = function (setupParameters) {
-    const setup = setupParameters || {};
+    let setup = setupParameters || {};
 
     // document mousemove
-    const mousemove = ({ clientX, clientY }) => {
-      this.style.left = `${clientX - this.dragStartX}px`;
-      this.style.top = `${clientY - this.dragStartY}px`;
+    const mousemove = (e) => {
+      this.style.left = `${e.clientX - this.dragStartX}px`;
+      this.style.top = `${e.clientY - this.dragStartY}px`;
+
+      setup.ondrag && setup.ondrag(e); // ondrag event
     };
 
     // document mouseup
     const mouseup = (e) => {
       document.removeEventListener("mousemove", mousemove);
       document.removeEventListener("mouseup", mouseup);
+
+      handle.classList.remove("dragging");
+
+      setup.ondragend && setup.ondragend(e); // ondragend event
     };
 
-    const handle = setup.handle || this;
+    let handle = setup.handle || this;
 
     // element mousedown
-    handle.addEventListener("mousedown", ({ offsetX, offsetY }) => {
-      this.dragStartX = offsetX;
-      this.dragStartY = offsetY;
+    handle.addEventListener("mousedown", (e) => {
+      this.dragStartX = e.offsetX;
+      this.dragStartY = e.offsetY;
 
       document.addEventListener("mousemove", mousemove);
       document.addEventListener("mouseup", mouseup);
 
       handle.classList.add("dragging");
+
+      setup.ondragstart && setup.ondragstart(e); // ondragstart event
     });
 
     handle.classList.add("draggable");
 
-    this.style.position = "absolute"; // fixed might work as well
+    setup.ondraginit && setup.ondraginit(e); // ondraginit event
   };
 
   onMount(() => {
     const setup = {
       handle: document.querySelector(".title-bar"),
+      // ondragstart : e => { document.querySelector(".draggable.dragging").cursor = "grabbing" },
+      // ondrag      : e => { console.log('drag!'); },
+      ondragend: (e) => {
+        document.querySelector(".draggable.dragging").cursor = "grab";
+      },
     };
     document.querySelector(".window").drag(setup);
   });
@@ -76,7 +88,7 @@
         <div class="col">
           <h1 id="header-name">Kaleidosium</h1>
           <span id="subheader">
-            Formally known as Dania Rifki. Programmer/Artist from Jakarta.
+            The element of beautiful forms. Person from Jakarta.
           </span>
         </div>
       </div>
@@ -98,7 +110,7 @@
           <a href="https://twitter.com/kaleidosium">Twitter</a>
           <a href="https://github.com/kaleidosium/">GitHub</a>
           <a href="https://kaleidosium.newgrounds.com/">Newgrounds</a>
-          <a href="https://www.youtube.com/c/DaniaRifki/">YouTube</a>
+          <a href="https://youtube.com/@Kaleidosium">YouTube</a>
         </div>
       </fieldset>
     </div>
@@ -161,7 +173,8 @@
     #main-window {
       width: 80vw;
     }
-    #fieldset-options, #videodrugs-checkbox-row {
+    #fieldset-options,
+    #videodrugs-checkbox-row {
       display: none;
     }
   }
