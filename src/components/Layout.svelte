@@ -88,7 +88,7 @@
         <div class="col">
           <h1 id="header-name">Kaleidosium</h1>
           <span id="subheader">
-            The element of beautiful forms. Person from Jakarta.
+            The element of beautiful forms.
           </span>
         </div>
       </div>
@@ -106,11 +106,15 @@
       </fieldset>
       <fieldset id="fieldset-links">
         <legend>Links</legend>
-        <div class="field-row">
-          <a href="https://twitter.com/kaleidosium">Twitter</a>
-          <a href="https://github.com/kaleidosium/">GitHub</a>
-          <a href="https://kaleidosium.newgrounds.com/">Newgrounds</a>
-          <a href="https://youtube.com/@Kaleidosium">YouTube</a>
+        <div class="field-row slash-prefix">
+          <a href="https://kaleidosium.github.io/md/">md</a>
+          <a href="https://twitter.com/kaleidosium">twitter</a>
+          <a href="https://liberal.lgbt/@kaleidosium">mastodon</a>
+          <a href="https://kaleidosium.tumblr.com">tumblr</a>
+          <a href="https://cohost.org/Kaleidosium">cohost</a>
+          <a href="https://github.com/kaleidosium">github</a>
+          <a href="https://kaleidosium.newgrounds.com">newgrounds</a>
+          <a href="https://youtube.com/@Kaleidosium">youtube</a>
         </div>
       </fieldset>
     </div>
@@ -138,6 +142,9 @@
   .flex-container {
     display: flex;
     justify-content: space-between;
+  }
+  .slash-prefix a::before {
+    content: "/";
   }
   #icon-image {
     width: 100%;
