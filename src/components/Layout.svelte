@@ -108,10 +108,9 @@
         <legend>Links</legend>
         <div class="field-row slash-prefix">
           <a href="https://kaleidosium.github.io/md/">md</a>
-          <a href="https://twitter.com/kaleidosium">twitter</a>
+          <a href="https://twitter.com/kaleidrawings">art_twitter</a>
           <a href="https://liberal.lgbt/@kaleidosium">mastodon</a>
           <a href="https://kaleidosium.tumblr.com">tumblr</a>
-          <a href="https://cohost.org/Kaleidosium">cohost</a>
           <a href="https://github.com/kaleidosium">github</a>
           <a href="https://kaleidosium.newgrounds.com">newgrounds</a>
           <a href="https://youtube.com/@Kaleidosium">youtube</a>
