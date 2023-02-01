@@ -107,11 +107,11 @@
       <fieldset id="fieldset-links">
         <legend>Links</legend>
         <div class="field-row slash-prefix">
-          <a href="https://kaleidosium.github.io/md/">md</a>
-          <a href="https://twitter.com/kaleidosium">twitter (art only)</a>
-          <a href="https://liberal.lgbt/@kaleidosium">mastodon</a>
-          <a href="https://kaleidosium.tumblr.com">tumblr</a>
+          <a href="https://kaleidosium.github.io/md/">writings</a>
           <a href="https://github.com/kaleidosium">github</a>
+          <a href="https://trans.house/@kaleidosium">mastodon</a>
+          <a href="https://kaleidosium.tumblr.com">tumblr</a>
+          <a href="https://twitter.com/kaleidosium">twitter (art only)</a>
           <a href="https://kaleidosium.newgrounds.com">newgrounds</a>
           <a href="https://youtube.com/@Kaleidosium">youtube</a>
         </div>
