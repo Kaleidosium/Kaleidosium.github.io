@@ -1,3 +1,8 @@
+$dark-color: #1d1d1d;
+$light-color: #fffaf7;
+$title-font: "Figtree", Arial, sans-serif;
+$text-font: "Times New Roman", serif;
+
 /* Taken from: https://gist.github.com/JoeyBurzynski/617fb6201335779f8424ad9528b72c41#100-bytes-of-css-to-look-great-everywhere-enhanced-version */
 html {
   max-width: 70ch;
@@ -8,22 +13,22 @@ html {
 }
 
 body {
-  font-family: "Times New Roman", serif;
-  background-color: #fffaf7;
+  font-family: $text-font;
+  background-color: $light-color;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Figtree", Arial, sans-serif;
+  font-family: $title-font;
 }
 
 h1 {
   margin: 0;
   font-weight: 400;
-  font-size: 40pt;
-  .tnr {
-    font-size: 45pt;
+  font-size: 42pt;
+  .text-font {
+    font-size: 47pt;
     font-weight: 300;
   }
 }
@@ -31,13 +36,17 @@ h1 {
 p,
 ul,
 ol {
-  color: #1d1d1d;
+  color: $dark-color;
 }
 
-.figtree {
-  font-family: "Figtree", Arial, sans-serif;
+blockquote {
+  font-style: italic;
 }
 
-.tnr {
-  font-family: "Times New Roman", serif;
+.title-font {
+  font-family: $title-font;
+}
+
+.text-font {
+  font-family: $text-font;
 }
