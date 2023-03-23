@@ -1,0 +1,43 @@
+/* Taken from: https://gist.github.com/JoeyBurzynski/617fb6201335779f8424ad9528b72c41#100-bytes-of-css-to-look-great-everywhere-enhanced-version */
+html {
+  max-width: 70ch;
+  padding: 3em 1em;
+  margin: auto;
+  line-height: 1.5;
+  font-size: 1.25em;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  background-color: #fffaf7;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Figtree", Arial, sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 40pt;
+  .tnr {
+    font-size: 45pt;
+    font-weight: 300;
+  }
+}
+
+p,
+ul,
+ol {
+  color: #1d1d1d;
+}
+
+.figtree {
+  font-family: "Figtree", Arial, sans-serif;
+}
+
+.tnr {
+  font-family: "Times New Roman", serif;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ config.description }}</title>
+  <link rel="stylesheet" href="{{ get_url(path="style.css") }}"/>
+  <link rel="preconnect" href="https://api.fonts.coollabs.io" crossorigin>
+  <link href="https://api.fonts.coollabs.iocss2?family=Figtree:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="section">
+    <div class="container">
+      {% block content %} {% endblock %}
+    </div>
+  </section>
+</body>
+
+</html>

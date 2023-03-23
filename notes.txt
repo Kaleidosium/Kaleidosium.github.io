@@ -1,0 +1,26 @@
+My site redesign inspirations:
+
+- https://cadence.moe/
+- https://ida.puwulsewave.gay/
+- https://transistorcafe.net/~digikitty_x86/
+- https://hikari.noyu.me/demos/
+- https://sadgrl.online/webmastery
+- https://ourple.place/
+- https://picopicocafe.com/index_en
+- https://heckscaper.com/main.html
+- https://hugo-terminal.vercel.app/
+- https://caseymuratori.com/
+- https://twobithistory.org/2018/08/18/ada-lovelace-note-g.html
+- https://12bit.club/
+- https://shadowfacts.net/#
+- https://brutalistwebsites.com/
+- https://brutalist-web.design/
+- https://css-tricks.com/this-page-is-a-truly-naked-brutalist-html-quine/
+- https://web.archive.org/web/20200727102949/https://jrl.ninja/etc/1/
+- https://ascii.garden/index.html
+- https://hype4.academy/articles/design/neubrutalism-is-taking-over-web
+- https://www.mollywhite.net/
+- https://bootcamp.uxdesign.cc/how-can-i-design-in-the-neo-brutalism-style-d85c458042de
+
+TODO:
+-
