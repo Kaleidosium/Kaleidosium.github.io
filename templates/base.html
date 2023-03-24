@@ -2,13 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>{{ config.description }}</title>
-    <link rel="stylesheet" href="{{ get_url(path="style.css") }}" />
-    <link href="https://cdn.skypack.dev/sanitize.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://api.fonts.coollabs.io" crossorigin>
+    <title>{{ config.title }} | {{ config.description }}</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{ config.description }}." />
+    <meta property="og:title" content="{{ config.title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kaleidosium.github.io/" />
+    <meta
+      property="og:image"
+      content="https://kaleidosium.github.io/favicon.png"
+    />
+    <meta property="og:description" content="{{ config.description }}." />
+
+    <link rel="stylesheet" href='{{ get_url(path="style.css") }}' />
+
+    <link rel="stylesheet" href="https://cdn.skypack.dev/sanitize.css" />
+    <link rel="preconnect" href="https://api.fonts.coollabs.io" crossorigin />
     <link
-    href="https://api.fonts.coollabs.iocss2?family=Figtree:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
-    rel="stylesheet">
+      rel="stylesheet"
+      href="https://api.fonts.coollabs.iocss2?family=Figtree:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    />
   </head>
 
   <body>
