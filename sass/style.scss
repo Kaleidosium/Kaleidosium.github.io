@@ -14,16 +14,17 @@ html {
 
 body {
   font-family: $text-font;
-  // background-image: url('../images/Dania BG.png');
-  // background-repeat: repeat;
+  background-image: url("images/Dania Head.png");
+  background-repeat: repeat;
   background-color: $light-color;
-}
+  image-rendering: crisp-edges;
 
-body .section-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  column-gap: 4em;
+  .section-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 4em;
+  }
 }
 
 section .content-container {
@@ -33,13 +34,12 @@ section .content-container {
 nav {
   text-align: right;
   width: max-content;
-}
 
-nav .nav-header {
-  font-family: $title-font;
-  font-weight: 700;
-  font-size: 1.25em;
-  margin-top: 0.5em;
+  .nav-header {
+    font-family: $title-font;
+    font-size: 1.25em;
+    margin-top: 0.5em;
+  }
 }
 
 ul {
@@ -48,6 +48,7 @@ ul {
   padding: 0;
 }
 
+a,
 blockquote {
   font-style: italic;
 }
