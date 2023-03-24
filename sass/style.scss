@@ -1,23 +1,55 @@
-$dark-color: #1d1d1d;
-$light-color: #fffaf7;
+$dark-color: #16161d;
+$light-color: floralwhite;
 $accent-color: #89029c;
 
 $title-font: "Figtree", Arial, sans-serif;
 $text-font: "Times New Roman", serif;
-$mono-font: 'Courier New', monospace;
+$mono-font: "Courier New", monospace;
 
-/* Taken from: https://gist.github.com/JoeyBurzynski/617fb6201335779f8424ad9528b72c41#100-bytes-of-css-to-look-great-everywhere-enhanced-version */
 html {
-  max-width: 70ch;
   padding: 3em 1em;
-  margin: auto;
   line-height: 1.5;
   font-size: 1.25em;
 }
 
 body {
   font-family: $text-font;
+  // background-image: url('../images/Dania BG.png');
+  // background-repeat: repeat;
   background-color: $light-color;
+}
+
+body .section-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 4em;
+}
+
+section .content-container {
+  width: 70ch;
+}
+
+nav {
+  text-align: right;
+  width: max-content;
+}
+
+nav .nav-header {
+  font-family: $title-font;
+  font-weight: 700;
+  font-size: 1.25em;
+  margin-top: 0.5em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+blockquote {
+  font-style: italic;
 }
 
 h1,
@@ -30,7 +62,7 @@ h1 {
   margin: 0;
   font-weight: 400;
   font-size: 42pt;
-  .text-font {
+  .--text-font {
     font-size: 47pt;
     font-weight: 300;
   }
@@ -59,14 +91,15 @@ ol {
   color: $dark-color;
 }
 
-blockquote {
-  font-style: italic;
+.--accent-color,
+a:visited {
+  color: $accent-color;
 }
 
-.title-font {
+.--title-font {
   font-family: $title-font;
 }
 
-.text-font {
+.--text-font {
   font-family: $text-font;
 }
