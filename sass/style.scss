@@ -38,7 +38,7 @@ nav {
   .nav-header {
     font-family: $title-font;
     font-size: 1.25em;
-    margin-top: 0.5em;
+    margin-top: 0.8em;
   }
 }
 
@@ -51,6 +51,16 @@ ul {
 a,
 blockquote {
   font-style: italic;
+}
+
+blockquote {
+  margin: 0;
+  border-left: solid $accent-color;
+
+  p {
+    padding: 15px;
+    border-radius: 5px;
+  }
 }
 
 h1,
