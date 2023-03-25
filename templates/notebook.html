@@ -4,7 +4,9 @@
 <ul>
   <!-- <!-- \If you are using pagination, section.pages will be empty. You need to use the paginator object-->
   {% for page in section.pages %}
-  <li>[{{ page.date }}] <a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+  <li>
+    [{{ page.date }}] <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+  </li>
   <!-- TODO(Kal): Add Categories -->
   {% endfor %}
 </ul>
