@@ -32,10 +32,6 @@ I don't even think most copyleft licenses are that good, but I'll refrain from r
 
 ### FOSS "Magic"
 
-Some people often rave about how FOSS is just magic, how it just works, how the "evil" closed source is harder to use and shit, the thing is though, the open/closeness of the software _doesn't matter_. GIMP is significantly worse than Photoshop in my and several designer's experience, the thing that makes software in general seems magical is how the code is well, programmed. there's little to no corelation of FOSS software being better just because it's open source, Blender took ages for it to be good.
+Some people often rave about how FOSS is just magic, how it just works, how the "evil" closed source is harder to use and shit, the thing is though, the open/closeness of the software _doesn't matter for software quality_. GIMP is significantly worse than Photoshop in my and several designer's experience, the thing that makes software in general seems magical is how the code is well, programmed. there's little corelation of FOSS software being better just because it's open source, Blender took ages for it to be good.
 
 Point is, it doesn't matter if it's closed or open, I use what works, and so should you.
-
-### Stop the Source Begging
-
-Seriously, just stop. I don't even know how to write this down, begging for people's source code that they worked hard on is just petty. I have no problem if they release the code after a beg, but if you do it _multiple_ times, it gets annoying and they probably don't want to open it even more. Case in point CEMU until recently, had been a closed-source project and its developers have reported high amounts of harassment from a minority of people pestering them why it wasn't FOSS already. It's pathetic and embarrassing.

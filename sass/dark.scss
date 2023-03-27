@@ -1,0 +1,35 @@
+@use "base";
+
+@media (prefers-color-scheme: dark) {
+  body,
+  p,
+  ul,
+  ol {
+    color: base.$light-color;
+  }
+
+  body {
+    background-image: url("images/dania_head_dark.png");
+    background-color: #b5a7b6;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid base.$light-color;
+    color: base.$light-color;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+  }
+
+  hr:after {
+    background: base.$dark-color;
+  }
+
+  section.sidebar > nav,
+  section.content {
+    background-color: base.$dark-color;
+    box-shadow: 12px 12px 0 base.$accent-color;
+    height: min-content;
+  }
+}

@@ -8,16 +8,29 @@
     <meta name="description" content="{{ config.description }}." />
     <meta property="og:title" content="{{ config.title }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://kaleidosium.github.io/" />
-    <meta
-      property="og:image"
-      content="https://kaleidosium.github.io/favicon.png"
-    />
+    <meta property="og:url" content="{{ config.base_url }}" />
+    <meta property="og:image" content='{{ get_url(path="favicon.png") }}' />
     <meta property="og:description" content="{{ config.description }}." />
 
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href='{{ get_url(path="favicon.ico") }}'
+    />
+
     <link rel="stylesheet" href='{{ get_url(path="style.css") }}' />
+    <link rel="stylesheet" href='{{ get_url(path="dark.css") }}' />
 
     <link rel="stylesheet" href="https://cdn.skypack.dev/sanitize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.skypack.dev/sanitize.css/assets.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.skypack.dev/sanitize.css/typography.css"
+    />
+
     <link rel="preconnect" href="https://api.fonts.coollabs.io" crossorigin />
     <link
       rel="stylesheet"
@@ -29,6 +42,17 @@
     <div class="section-container">
       <section class="sidebar">
         <nav role="nav">
+          <div class="logo-image">
+            <a href="{{ config.base_url }}">
+              <img
+                width="160px"
+                height="160px"
+                src="{{ get_url(path='images/kaleidosium_symbol.svg') }}"
+                alt="The Kaleidosium Symbol, A mauveine compass rose symbolising technological progress and a hopeful future"
+              />
+            </a>
+          </div>
+          <hr />
           <!-- <button id="menu-toggle" class="menu-toggle">Menu</button> -->
           <div id="nav-links" class="nav-links collapsed">
             <a class="nav-element" href="/">Home</a>
@@ -43,13 +67,15 @@
                 <a href="/">Programming</a>
               </li> -->
               <li class="nav-element">
-                <a href="/">Original Characters</a>
+                <a href="{{ get_url(path='@/originalcharacters/_index.md') }}"
+                  >Original Characters</a
+                >
               </li>
             </ul>
             <ul>
               <li class="nav-header">Info</li>
               <li class="nav-element">
-                <a href="/">About</a>
+                <a href="{{ get_url(path='@/about/_index.md') }}">About</a>
               </li>
               <!-- <li class="nav-element">
                 <a href="/">Links and Contact</a>
@@ -58,7 +84,7 @@
           </div>
         </nav>
       </section>
-      <section>
+      <section class="content">
         <div class="content-container">{% block content %} {% endblock %}</div>
       </section>
     </div>
