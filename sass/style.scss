@@ -1,5 +1,15 @@
 @use "base";
 
+@keyframes scroll {
+  from {
+    background-position: 0px 0px;
+  }
+  to {
+    // Background Image Size
+    background-position: 64px 64px;
+  }
+}
+
 html {
   padding: 3em 1em;
   line-height: 1.5;
@@ -11,6 +21,11 @@ body {
   background-image: url("images/dania_head.png");
   background-repeat: repeat;
   background-color: #9b729f;
+  background-attachment: fixed;
+  animation: scroll 3s infinite;
+  animation-timing-function: linear;
+  transform: scale(100%);
+
   .section-container {
     display: flex;
     justify-content: center;
@@ -133,6 +148,10 @@ div.footnote-definition {
 a:visited,
 .--accent-color {
   color: base.$accent-color;
+}
+
+svg#kaleidosium-symbol {
+  fill: base.$accent-color;
 }
 
 .--title-font {
