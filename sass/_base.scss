@@ -7,3 +7,13 @@ $accent-color-dark: #ec70fd;
 
 $title-font: "Figtree", Arial, sans-serif;
 $text-font: "Times New Roman", serif;
+
+@keyframes scroll {
+  from {
+    background-position: 0px 0px;
+  }
+  to {
+    // Background Image Size
+    background-position: 64px 64px;
+  }
+}

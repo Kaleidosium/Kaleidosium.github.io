@@ -1,15 +1,5 @@
 @use "base";
 
-@keyframes scroll {
-  from {
-    background-position: 0px 0px;
-  }
-  to {
-    // Background Image Size
-    background-position: 64px 64px;
-  }
-}
-
 html {
   padding: 3em 1em;
   line-height: 1.5;
