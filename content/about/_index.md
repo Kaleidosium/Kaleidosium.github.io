@@ -24,7 +24,9 @@ It is powered by [Zola](https://www.getzola.org/), a good flexible SSG with a bi
 ---
 
 ```js
-console.log(`%c `.repeat(5),...`5CFFABFFFFAB5CF`
-    .match(/.../g)
-    .map(c=>`background:#${c};display:block;padding:2%26%`))
+console.log(
+  `%c `.repeat(5),...`5CFFABFFFFAB5CF`
+  .match(/.../g)
+  .map(c=>`background:#${c};display:block;padding:2%26%`)
+)
 ```

@@ -43,7 +43,7 @@ highlight_code = true
 
 # The theme to use for code highlighting.
 # See below for list of allowed values.
-highlight_theme = "bbedit"
+highlight_theme = "dracula"
 
 
 # When set to "true", emoji aliases translated to their corresponding
