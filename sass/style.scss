@@ -20,7 +20,7 @@ body {
   font-family: base.$text-font;
   background-image: url("images/dania_head.png");
   background-repeat: repeat;
-  background-color: #9b729f;
+  background-color: base.$bg-color;
   background-attachment: fixed;
   animation: scroll 3s infinite;
   animation-timing-function: linear;
@@ -75,11 +75,6 @@ h1,
 h2,
 h3 {
   font-family: base.$title-font;
-}
-
-pre,
-code {
-  font-family: base.$mono-font;
 }
 
 h1 {
