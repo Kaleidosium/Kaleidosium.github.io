@@ -20,7 +20,7 @@ The standard definitions for the colours are:
 
 - White
 - Mauveine: Pantone PMS 2602 C
-- Blue Aster: Pantone PMS PMS 18-4252 TPG
+- Blue Aster: Pantone PMS 18-4252 TPG
 
 The aspect ratio of the flag is officially 1:φ, but [2:3 is also acceptable](/images/notebook/Personal%20Banner_2-3.png).
 
