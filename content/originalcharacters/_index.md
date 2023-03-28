@@ -1,6 +1,6 @@
 +++
+sort_by = "title"
 title = "Original Characters"
-template = "originalcharacters-page.html"
+template = "originalcharacters.html"
+page_template = "originalcharacters-page.html"
 +++
-
-A work in progress.

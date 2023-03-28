@@ -31,6 +31,21 @@
     color: base.$accent-color-dark;
   }
 
+  thead {
+    background-color: base.$accent-color-dark;
+    color: base.$dark-color;
+  }
+
+  tbody {
+    tr:nth-child(odd) {
+      background-color: base.$bg-color-dark;
+    }
+  
+    tr:nth-child(even) {
+      background-color: #8a628d;
+    }
+  }
+
   svg#kaleidosium-symbol {
     fill: base.$accent-color-dark;
   }
