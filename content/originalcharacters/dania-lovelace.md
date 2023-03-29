@@ -38,7 +38,7 @@ Today (2055) she still works as a graphics programmer, though at a different stu
 - The first of my other OCs which she met was Rosa "Rose" Aster-Weiß, who she planned to kidnap, yet failed, during a visit to her home country.
 - She sometimes draws on her tablet, though mainly just for herself.
 - She used a Thinkpad T480 during her rebellion days.
-- She sings and dances at times, though not very common, she is pretty good at it.
+- She sings and dances sometimes, she is pretty good at it.
 - She speaks English, Esperanto, Dutch, French, and Indonesian.
 - Her accent is a mix of Swiss French and a modern variation of Transatlantic (though is more influenced by America).
 - As my (Dania Rifki) fursona, she is the closest character to me, she is an idealised version of me in a way.
