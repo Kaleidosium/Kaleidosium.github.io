@@ -102,6 +102,12 @@ hr:after {
   top: -18px;
 }
 
+figcaption {
+  padding: 0.1em;
+  padding-left: 0.5em;
+  background-color: base.$bg-color;
+}
+
 body,
 p,
 ul,
@@ -129,10 +135,16 @@ table {
   border-collapse: collapse;
   margin: 1.2rem 0;
   width: 100%;
+
   th,
   td {
     padding: 0.2em 1em;
+
+    img {
+      margin: 0.7rem 0;
+    }
   }
+
   th {
     font-family: base.$title-font;
   }
@@ -145,7 +157,7 @@ thead {
 
 tbody {
   tr:nth-child(odd) {
-    background-color:  base.$bg-color;
+    background-color: base.$bg-color;
   }
 
   tr:nth-child(even) {

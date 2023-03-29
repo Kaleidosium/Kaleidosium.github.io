@@ -19,7 +19,7 @@ This is my little personal website; It is where I write thoughts that cannot fit
 
 [My website went through plenty revisions over the years](https://github.com/Kaleidosium/Kaleidosium.github.io/commits/main); I don't think that will end any time soon, but I'm pretty happy with what I have right now. The site design has always fluctuated from being very basic to being more heavy, I think this iteration strikes a good balance between the two.
 
-It is powered by [Zola](https://www.getzola.org/), a good flexible SSG with a bit of a learning curve.
+It is powered by [Zola](https://www.getzola.org/), a good flexible SSG with a bit of a learning curve. All content on this website is licensed under CC BY-SA 4.0 unless stated otherwise.
 
 ---
 

@@ -6,7 +6,10 @@ categories = "opinion, monet"
 
 I've showed my flag to a few people and I decided to make a post about it, here it is:
 
-![Personal Banner of Dania Rifki](/images/notebook/Personal%20Banner_1-Phi.png)
+<figure>
+  <img src="/images/notebook/Personal%20Banner_1-Phi.png" alt="Personal Banner of Dania Rifki." />
+  <figcaption>My beautiful personal flag! ain't it a beauty?</figcaption>
+</figure>
 
 The symbolism of the flag is as follows:
 
