@@ -12,6 +12,9 @@ $accent-color-dark: #ee7efd;
 $title-font: "Figtree", Arial, sans-serif;
 $text-font: "Times New Roman", serif;
 
+$mobile: 920px;
+$mobile_narrow: 450px;
+
 @keyframes scroll {
   from {
     background-position: 0px 0px;

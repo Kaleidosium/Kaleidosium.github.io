@@ -68,4 +68,10 @@
     background-color: base.$dark-color;
     box-shadow: 12px 12px 0 base.$accent-color-dark;
   }
+
+  section.content {
+    @media only screen and (max-width: base.$mobile) {
+      border-bottom: solid 12px base.$accent-color-dark;
+    }
+  }
 }

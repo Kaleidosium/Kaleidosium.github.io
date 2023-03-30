@@ -4,11 +4,16 @@ html {
   padding: 3em 1em;
   line-height: 1.5;
   font-size: 1.25em;
+
+  @media only screen and (max-width: base.$mobile) {
+    padding: 0 0 3rem 0;
+  }
 }
 
 :where(iframe, img, input, video, select, textarea) {
   max-height: 20rem;
   max-width: 100%;
+  min-width: 5rem;
   display: block;
   margin: 0 auto;
 }
@@ -28,6 +33,10 @@ body {
     justify-content: center;
     flex-direction: row;
     column-gap: 3.5rem;
+
+    @media only screen and (max-width: base.$mobile) {
+      flex-direction: column;
+    }
   }
 }
 
@@ -39,6 +48,10 @@ nav {
     font-family: base.$title-font;
     font-size: 1.25rem;
     margin-top: 0.8rem;
+  }
+
+  @media only screen and (max-width: base.$mobile) {
+    text-align: center;
   }
 }
 
@@ -57,6 +70,11 @@ pre {
   padding: 0.5em;
   padding-right: 0;
   border-left: solid base.$accent-color;
+}
+
+code {
+  word-break: break-word;
+  white-space: pre-wrap;
 }
 
 blockquote {
@@ -87,6 +105,7 @@ h1 {
 }
 
 hr {
+  margin: 1rem 0;
   border: none;
   border-top: 1px solid base.$dark-color;
   overflow: visible;
@@ -120,6 +139,12 @@ section.content {
   background-color: base.$light-color;
   box-shadow: 12px 12px 0 base.$accent-color;
   height: min-content;
+
+  @media only screen and (max-width: base.$mobile) {
+    // TODO(Kal): Find out why !important is needed here
+    width: 100% !important;
+    box-shadow: unset !important;
+  }
 }
 
 section.sidebar > nav {
@@ -129,10 +154,14 @@ section.sidebar > nav {
 section.content {
   width: 70ch;
   padding: 1rem 2.3rem;
+  @media only screen and (max-width: base.$mobile) {
+    border-bottom: solid 12px base.$accent-color;
+  }
 }
 
 table {
   border-collapse: collapse;
+  overflow-x: auto;
   margin: 1.2rem 0;
   width: 100%;
 
@@ -147,6 +176,26 @@ table {
 
   th {
     font-family: base.$title-font;
+  }
+
+  @media only screen and (max-width: base.$mobile) {
+    border-collapse: collapse;
+    margin: 0.6rem 0;
+
+    th,
+    td {
+      padding: 0.1em 0.5em;
+
+      img {
+        margin: 0.35rem 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: base.$mobile_narrow) {
+  table.gallery {
+    display: none;
   }
 }
 
@@ -169,9 +218,16 @@ tbody {
   }
 }
 
-div.logo-image {
+div#logo-image {
   text-align: center;
-  padding-bottom: 0.8rem;
+  padding-bottom: 0.5rem;
+
+  @media only screen and (max-width: base.$mobile) {
+    svg {
+      width: 100px;
+      height: auto;
+    }
+  }
 }
 
 div.footnote-definition {

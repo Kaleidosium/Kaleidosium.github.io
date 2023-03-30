@@ -18,29 +18,55 @@
       href='{{ get_url(path="favicon.ico") }}'
     />
 
-    <link rel="preload" href='{{ get_url(path="style.css") }}' as="style" />
     <link
       rel="preload"
+      media="screen"
+      href='{{ get_url(path="style.css") }}'
+      as="style"
+    />
+    <link
+      rel="preload"
+      media="screen"
       href="https://cdn.skypack.dev/sanitize.css"
       as="style"
     />
 
-    <link rel="stylesheet" href='{{ get_url(path="style.css") }}' />
-    <link rel="stylesheet" href='{{ get_url(path="dark.css") }}' />
-
-    <link rel="stylesheet" href="https://cdn.skypack.dev/sanitize.css" />
     <link
       rel="stylesheet"
-      href="https://cdn.skypack.dev/sanitize.css/typography.css"
+      media="screen"
+      href='{{ get_url(path="style.css") }}'
     />
     <link
       rel="stylesheet"
+      media="screen"
+      href='{{ get_url(path="dark.css") }}'
+    />
+    <link
+      rel="stylesheet"
+      media="print"
+      href='{{ get_url(path="print.css") }}'
+    />
+
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="https://cdn.skypack.dev/sanitize.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
       href="https://cdn.skypack.dev/sanitize.css/reduce-motion.css"
     />
-
-    <link rel="preconnect" href="https://fonts.bunny.net" />
     <link
       rel="stylesheet"
+      media="all"
+      href="https://cdn.skypack.dev/sanitize.css/typography.css"
+    />
+
+    <link rel="preconnect" media="screen" href="https://fonts.bunny.net" />
+    <link
+      rel="stylesheet"
+      media="screen"
       href="https://fonts.bunny.net/css?family=figtree:300,300i,400,400i,700,700i&display=swap"
     />
   </head>
@@ -48,8 +74,8 @@
   <body>
     <div class="section-container">
       <section class="sidebar">
-        <nav role="navigation">
-          <div class="logo-image">
+        <nav>
+          <div id="logo-image">
             <!-- <a href="{{ config.base_url }}"> -->
             <svg
               alt="The Kaleidosium Symbol, A mauveine compass rose symbolising technological progress and a hopeful future"
@@ -119,6 +145,7 @@
                 <a href="/">Links and Contact</a>
               </li> -->
             </ul>
+            <hr />
           </div>
         </nav>
       </section>

@@ -31,7 +31,7 @@ Today (2055) she still works as a graphics programmer, though at a different stu
 ## Trivia
 
 - Dania's first name was suggested by "mother" (i.e. her creator's wife) for a different robot. She did not have an assigned name at birth.
-  - Anglicised, her name is [Diana](https://en.wikipedia.org/wiki/Diana_(mythology)), goddess of wild animals and the hunt.
+  - Anglicised, her name is [Diana](https://en.wikipedia.org/wiki/Diana_(mythology)), the roman goddess of wild animals and the hunt.
 - Her last name was only added after she fled her home country, she took it from [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace), the first computer programmer.
   - It was also a bit of an ironic twist, since [Lady Lovelace did not believe Intelligent AI was possible](https://academic.oup.com/mind/article/LIX/236/433/986238#164226550:~:text=(6)%20Lady%20Lovelace%27s%20Objection), though most people would suspect she'd change her mind if current evidence was given to her.
 - Her current model number is different than her assigned model number, information about her assigned model number has been lost to time.
@@ -43,7 +43,22 @@ Today (2055) she still works as a graphics programmer, though at a different stu
 - Her accent is a mix of Swiss French and a modern variation of Transatlantic (though is more influenced by America).
 - As my (Dania Rifki) fursona, she is the closest character to me, she is an idealised version of me in a way.
 
-| :compass: | Gallery | :compass: |
-|:---:|:---:|:---:|
-|![Pride Art of Dania made by CibeleeBunnie on DeviantArt, She's flying the Transgender Flag](/images/originalcharacters/dania-lovelace/CibeleeBunnie_Kaleidosium.jpg) | ![Dania as Risky Boots by RHG1951 on Twitter](/images/originalcharacters/dania-lovelace/RHG-Dania_Boots_Portrait.png) |![Dania in an Encim Kebaya by Pashmashh on Instagram, I love how they did the sarong](/images/originalcharacters/dania-lovelace/PashmashhDaniaKebayaRobot.png)|
-|![Punk-looking Dania done by Reuben on Instagram, I love the dark colours](/images/originalcharacters/dania-lovelace/ReubenPunkDania.jpg)|![Traditional Chibi Art of Dania done by MLynx56 on Twitter!](/images/originalcharacters/dania-lovelace/MilkyWayLynx_Dania.jpg) |  ![Dania PFP drawn by VeeSheep for my birthday, commissioned by KanoieAwesome](/images/originalcharacters/dania-lovelace/VeeSheep-Comm_ICON_-_Kanoie_-_Dania_Birthday.png)|
+<table class="gallery">
+<thead>
+<tr>
+<th colspan="3">Gallery</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td ><img src="/images/originalcharacters/dania-lovelace/CibeleeBunnie_Kaleidosium.jpg" alt="Pride Art of Dania made by CibeleeBunnie on DeviantArt, She&#39;s flying the Transgender Flag"></td>
+<td ><img src="/images/originalcharacters/dania-lovelace/RHG-Dania_Boots_Portrait.png" alt="Dania as Risky Boots by RHG1951 on Twitter"></td>
+<td ><img src="/images/originalcharacters/dania-lovelace/PashmashhDaniaKebayaRobot.png" alt="Dania in an Encim Kebaya by Pashmashh on Instagram, I love how they did the sarong"></td>
+</tr>
+<tr>
+<td ><img src="/images/originalcharacters/dania-lovelace/ReubenPunkDania.jpg" alt="Punk-looking Dania done by Reuben on Instagram, I love the dark colours"></td>
+<td ><img src="/images/originalcharacters/dania-lovelace/MilkyWayLynx_Dania.jpg" alt="Traditional Chibi Art of Dania done by MLynx56 on Twitter!"></td>
+<td ><img src="/images/originalcharacters/dania-lovelace/VeeSheep-Comm_ICON_-_Kanoie_-_Dania_Birthday.png" alt="Dania PFP drawn by VeeSheep for my birthday, commissioned by KanoieAwesome"></td>
+</tr>
+</tbody>
+</table>
