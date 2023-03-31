@@ -10,13 +10,13 @@ Well, It's finally here, my site redesign is finally finished after months of wa
 
 I started 2023 off with some revisions to my "design philosophy", you can probably guess I was much influenced by Dieter Rams.
 
-- All design philosophies should be applied with restraint
-- Design should be honest
-- Design should be unobtrusive
-- Design should be accessible by default
-- Design when applied, should be functional
-- Design should have personality
-- Design should be durable, ideally last forever
+1. All design philosophies should be applied with restraint
+2. Design should be honest
+3. Design should be unobtrusive
+4. Design should be accessible by default
+5. Design when applied, should be functional
+6. Design should have personality
+7. Design should be durable, ideally last forever
 
 On the one hand, I'm not a huge fan of clinical minimalism in some modern websites, on the other hand, I'm also not a fan of overt skeuomorphs and detail in most "Web 1.0" websites, they're just not me. My current design philosophy merges what I think are the best of both worlds. This website, along with my new logo are the products of it.
 

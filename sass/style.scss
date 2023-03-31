@@ -141,7 +141,6 @@ section.content {
   height: min-content;
 
   @media only screen and (max-width: base.$mobile) {
-    // TODO(Kal): Find out why !important is needed here
     width: 100% !important;
     box-shadow: unset !important;
   }

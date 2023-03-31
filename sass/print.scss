@@ -9,12 +9,11 @@
     background-image: none !important;
   }
 
-  #content,
-  #page {
-    width: 100%;
-    margin: 0;
-    float: none;
-  }
+  // #content {
+  //   width: 100%;
+  //   margin: 0;
+  //   float: none;
+  // }
 
   /** Set margins */
   @page {
@@ -125,10 +124,8 @@
 
   /* Hide unnecessary elements for printing */
 
-  #header-widgets,
   nav,
   .sidebar,
-  #breadcrumbs,
   #footer {
     display: none !important;
   }
