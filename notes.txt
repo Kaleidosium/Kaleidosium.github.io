@@ -16,11 +16,10 @@ My site redesign inspirations:
 - https://brutalistwebsites.com/
 - https://brutalist-web.design/
 - https://css-tricks.com/this-page-is-a-truly-naked-brutalist-html-quine/
-- https://web.archive.org/web/20200727102949/https://jrl.ninja/etc/1/
+- https://gist.github.com/JoeyBurzynski/617fb6201335779f8424ad9528b72c41#100-bytes-of-css-to-look-great-everywhere-enhanced-version
 - https://ascii.garden/index.html
 - https://hype4.academy/articles/design/neubrutalism-is-taking-over-web
 - https://www.mollywhite.net/
 - https://bootcamp.uxdesign.cc/how-can-i-design-in-the-neo-brutalism-style-d85c458042de
-
-TODO:
--
+- https://houl.codeberg.page
+- https://mitchy.xyz/
