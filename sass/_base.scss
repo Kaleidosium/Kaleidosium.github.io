@@ -1,0 +1,26 @@
+$dark-color: #16161d;
+$light-color: #ffffff;
+
+// c89dcc 9b729f
+$bg-color: #c89dcc;
+// 5e3963 8a628d
+$bg-color-dark: #5e3963;
+
+$accent-color: #89029c;
+$accent-color-dark: #ee7efd;
+
+$title-font: "Figtree", Arial, sans-serif;
+$text-font: "Times New Roman", serif;
+
+$mobile: 920px;
+$mobile_narrow: 450px;
+
+@keyframes scroll {
+  from {
+    background-position: 0px 0px;
+  }
+  to {
+    // Background Image Size
+    background-position: 64px 64px;
+  }
+}

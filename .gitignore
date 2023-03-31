@@ -1,6 +1,2 @@
-/node_modules/
-/public/build/
-
-.DS_Store
-
-*.bak
+/design references
+/public
