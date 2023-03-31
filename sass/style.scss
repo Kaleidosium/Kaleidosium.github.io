@@ -156,6 +156,7 @@ section.content {
   padding: 1rem 2.3rem;
   @media only screen and (max-width: base.$mobile) {
     border-bottom: solid 12px base.$accent-color;
+    padding: 1rem 1.5rem;
   }
 }
 
