@@ -29,4 +29,4 @@ The aspect ratio of the flag is officially 1:φ, but [2:3 is also acceptable](/i
 
 ---
 
-This flag is an evolution on many previous designs that I have made through out my time as a vexillophile. Though I am no longer active around these circles, I still consider flags and other symbols of social constructs to be an interesting endeavour.
+This flag is an evolution on many previous designs that I have made through out my time as a vexillophile. Though I am no longer active around those circles, I still consider flags and other symbols of social constructs to be an interesting endeavour.
