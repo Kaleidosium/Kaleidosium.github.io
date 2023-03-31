@@ -102,6 +102,13 @@ h1 {
     font-size: 47pt;
     font-weight: 300;
   }
+  @media only screen and (max-width: base.$mobile) {
+    font-size: 38pt;
+
+    .--text-font {
+      font-size: 42pt;
+    }
+  }
 }
 
 hr {
