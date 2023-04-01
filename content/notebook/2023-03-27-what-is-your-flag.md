@@ -17,7 +17,7 @@ The symbolism of the flag is as follows:
 - The Compass Star is a symbol of me as an indivisible individual, but also a hope for a good future
 - The Mauveine Purple represents Science and Technology
 - The Blue Aster represents Art and Nature
-- The two pales being being equal represents the harmonious balance between the mind and the heart
+- The two pales being equal represents the harmonious balance between the mind and the heart
 
 The standard definitions for the colours are:
 
