@@ -20,10 +20,13 @@ html {
 
 body {
   font-family: base.$text-font;
-  background: url("images/dania_head.png") repeat;
   background-color: base.$bg-color;
-  background-attachment: fixed;
-  animation: scroll 3s linear infinite;
+
+  @media only screen and (min-width: base.$mobile) {
+    background: url("images/dania_head.png") repeat;
+    animation: scroll 3s linear infinite;
+    background-attachment: fixed;
+  }
 
   .section-container {
     display: flex;
