@@ -156,7 +156,7 @@ section.content {
 section.sidebar > nav {
   padding: 1rem 1.3rem;
   @media only screen and (max-width: base.$mobile) {
-    padding: 1rem 1.3rem 0.5rem;
+    padding: 1rem 1.3rem 0.1rem;
   }
 }
 
