@@ -155,6 +155,9 @@ section.content {
 
 section.sidebar > nav {
   padding: 1rem 1.3rem;
+  @media only screen and (max-width: base.$mobile) {
+    padding: 1rem 1.3rem 0.5rem;
+  }
 }
 
 section.content {
@@ -162,7 +165,8 @@ section.content {
   padding: 1rem 2.3rem;
   @media only screen and (max-width: base.$mobile) {
     border-bottom: solid 12px base.$accent-color;
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 1.5rem;
+    padding-top: 0;
   }
 }
 
