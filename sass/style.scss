@@ -20,7 +20,7 @@ html {
 
 body {
   font-family: base.$text-font;
-  background-color: base.$bg-color;
+  background-color: base.$bg-color !important;
 
   @media only screen and (min-width: base.$mobile) {
     background: url("images/dania_head.png") repeat;
