@@ -30,7 +30,7 @@ Today (2055) she still works as a graphics programmer, though at a different stu
 
 ## Trivia
 
-- Dania's first name was suggested by "mother" (i.e. her creator's wife) for a different robot. She did not have an assigned name at birth.
+- Dania's forename was suggested by her "mother" (i.e. her creator's wife) for a different robot. She did not have an assigned name at birth.
   - Anglicised, her name is [Diana](https://en.wikipedia.org/wiki/Diana_(mythology)), the roman goddess of wild animals and the hunt.
 - Her last name was only added after she fled her home country, she took it from [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace), the first computer programmer.
   - It was also a bit of an ironic twist, since [Lady Lovelace did not believe Intelligent AI was possible](https://academic.oup.com/mind/article/LIX/236/433/986238#164226550:~:text=(6)%20Lady%20Lovelace%27s%20Objection), though most people would suspect she'd change her mind if current evidence was given to her.
