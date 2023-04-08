@@ -6,7 +6,7 @@ html {
   font-size: 1.25em;
 
   @media only screen and (max-width: base.$mobile) {
-    padding: 0 0 3rem 0;
+    padding: 0;
   }
 }
 
@@ -164,9 +164,7 @@ section.content {
   width: 73ch;
   padding: 1rem 2.3rem;
   @media only screen and (max-width: base.$mobile) {
-    border-bottom: solid 12px base.$accent-color;
-    padding: 0.5rem 1.5rem;
-    padding-top: 0;
+    padding: 0 1.5rem 1.5rem ;
   }
 }
 
