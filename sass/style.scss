@@ -32,7 +32,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    column-gap: 3.5rem;
+    column-gap: 2.5rem;
 
     @media only screen and (max-width: base.$mobile) {
       flex-direction: column;
@@ -74,7 +74,8 @@ pre {
 
 code {
   word-break: break-word;
-  white-space: pre-wrap;
+  overflow-x: scroll;
+  // white-space: pre-wrap;
 }
 
 blockquote {
