@@ -48,6 +48,7 @@ As of now, r/neoliberal's model is the only true solution to this iron law probl
 
 After Posting this, I felt compelled adding a comment made by u/WumpaMunch that I felt would be appropriate for this Essay.
 
+> Is it possible that more moderate types have a greater tendency to move on from forums going sour, whilst the extreme types tend to coalesce as they are attracted by increasing concentration of views they agree with?
 > Perhaps, to supplement the mods, we need to cultivate a "social immunity" to concentrations of extremists. We should all individually call out trends towards extremism and dogma (politely and respectfully where possible). This works very well against fascism in the physical world, and could work in the virtual.
 
 ## TL;DR
