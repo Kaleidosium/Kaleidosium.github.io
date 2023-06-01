@@ -9,7 +9,7 @@ I'm a Transgender Girl [She/Her] with origins in Jakarta, Indonesia. My main int
 
 I realised I wasn't cisgender in around May 2019, but came fully to accept being a Trans Woman in around December that year. Due to familial and political issues, I have not been able to start transitioning. Though I hope to start transitioning as soon as possible.
 
-I am bisexual and my partner is the lovely [PrimalPeashooter](https://primalpeashooter.github.io/)!
+I am bisexual and polyarmous, my partners are the lovely [PrimalPeashooter](https://primalpeashooter.github.io/) and [VeeSheep](https://veesheebuuu.tumblr.com/)!
 
 ![My Flags](/images/flags.png)
 

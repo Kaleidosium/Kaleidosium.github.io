@@ -23,3 +23,5 @@ My site redesign inspirations:
 - https://bootcamp.uxdesign.cc/how-can-i-design-in-the-neo-brutalism-style-d85c458042de
 - https://houl.codeberg.page
 - https://mitchy.xyz/
+
+Rewrite in https://getnikola.com/
