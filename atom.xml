@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Kaleidosium</title>
+    <subtitle>The element of beautiful forms</subtitle>
+    <link href="https://kaleidosium.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://kaleidosium.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-06-01T00:00:00+00:00</updated>
+    <id>https://kaleidosium.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>I am Back</title>
+        <published>2023-06-01T00:00:00+00:00</published>
+        <updated>2023-06-01T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://kaleidosium.github.io/notebook/i-am-back/" type="text/html"/>
+        <id>https://kaleidosium.github.io/notebook/i-am-back/</id>
+        
+        <content type="html">&lt;p&gt;Well, Happy Pride Month everyone! and I think I have something to tell you all.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;&#x2F;images&#x2F;notebook&#x2F;Tricolor Polyamory Pride Flag.png&quot; alt=&quot;Tricolor Polyarmory Flag.&quot; &#x2F;&gt;
+  &lt;figcaption&gt;Polyarmory flag from https:&#x2F;&#x2F;www.polyamproud.com&#x2F;&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;I&#x27;m Polyarmous! and I&#x27;m currently in a polyarmous relationship. I&#x27;m happy with both of them as my partners and I am in love with them.&lt;&#x2F;p&gt;
+&lt;p&gt;I apologise for taking an absence from social media, I had to deal with IRL stuff and I wasn&#x27;t able to spend much time online!&lt;&#x2F;p&gt;
+&lt;p&gt;Another thing, I want to focus on improving my math, so I&#x27;ve been dedicating time to trying to improve my skills, which I have a awful foundation of due to being taught improperly. I hope I can be better at math in the future.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve also realised I haven&#x27;t been giving much love to my &amp;quot;core&amp;quot; interests other than Art, and I feel like I get peer pressured to doing art when I really should be focusing on learning integration techniques or write about institutions in Southeast Asia. I still love to draw, but Art to me is a hobby, and doing too much of one thing gets tiring in the long run!&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;Thank you for taking the time to read this post! 🏳️‍⚧️&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Website Redesign</title>
+        <published>2023-03-31T00:00:00+00:00</published>
+        <updated>2023-03-31T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://kaleidosium.github.io/notebook/site-redesign/" type="text/html"/>
+        <id>https://kaleidosium.github.io/notebook/site-redesign/</id>
+        
+        <content type="html">&lt;p&gt;Well, It&#x27;s finally here, my site redesign is finally finished after months of wanting to touch WebDev after &lt;a href=&quot;https:&#x2F;&#x2F;kaleidosium.itch.io&#x2F;hexes&quot;&gt;I was finished with HEXES&lt;&#x2F;a&gt;. I&#x27;m making a small writeup on this topic because I really like this look.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-design&quot;&gt;The Design&lt;&#x2F;h2&gt;
+&lt;p&gt;I started 2023 off with some revisions to my &amp;quot;design philosophy&amp;quot;, you can probably guess I was much influenced by Dieter Rams.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;All design philosophies should be applied with restraint&lt;&#x2F;li&gt;
+&lt;li&gt;Design should be honest&lt;&#x2F;li&gt;
+&lt;li&gt;Design should be unobtrusive&lt;&#x2F;li&gt;
+&lt;li&gt;Design should be accessible by default&lt;&#x2F;li&gt;
+&lt;li&gt;Design when applied, should be functional&lt;&#x2F;li&gt;
+&lt;li&gt;Design should have personality&lt;&#x2F;li&gt;
+&lt;li&gt;Design should be durable, ideally last forever&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;On the one hand, I&#x27;m not a huge fan of clinical minimalism in some modern websites, on the other hand, I&#x27;m also not a fan of overt skeuomorphs and detail in most &amp;quot;Web 1.0&amp;quot; websites, they&#x27;re just not me. My current design philosophy merges what I think are the best of both worlds. This website, along with my new logo are the products of it.&lt;&#x2F;p&gt;
+&lt;p&gt;For the site, I went for a sort-of design brutalism, it&#x27;s comparatively bare and doesn&#x27;t have much going on, If you removed the scrolling BG which I added for some personality, there&#x27;s nothing much interesting going on. Regardless I feel quite happy with what I&#x27;ve made.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve also added a printer-friendly layout if anyone is interested in printing my site.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-code&quot;&gt;The Code&lt;&#x2F;h2&gt;
+&lt;p&gt;While I don&#x27;t have much to say about the design of the website, the code I have plenty to say. This website was made with the &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola SSG&lt;&#x2F;a&gt;, It&#x27;s pretty barebones and has a learning curve, but it is very flexible and powerful if you manage to wield it.&lt;&#x2F;p&gt;
+&lt;p&gt;The stylesheets were done in SCSS, which I love and missed working with for the longest time. One feature that I quite like is the lack of JavaScript use for the website, while I&#x27;m not a anti-JS luddite like &lt;em&gt;some people&lt;&#x2F;em&gt;, I do believe in minimising the usage of it when possible.&lt;&#x2F;p&gt;
+&lt;p&gt;The HTML is also mainly semantic to make it work nice with screen readers and increase accessibility. I was inspired by the &lt;a href=&quot;https:&#x2F;&#x2F;cube.fyi&#x2F;&quot;&gt;CUBE CSS&lt;&#x2F;a&gt; methodology for the styling structure of the website, particularly since I wasn&#x27;t a huge fan of BEM&#x27;s avoidance of CSS when I designed websites in the past, and CUBE made CSS genuinely enjoyable for me again, albeit I did diverge from the methodology in minor ways.&lt;&#x2F;p&gt;
+&lt;p&gt;I tried to be economical with the styling and not rely on expensive CSS tricks, while the website won&#x27;t run on early Web 2.0 browsers, I think it&#x27;s a safe bet that &lt;a href=&quot;https:&#x2F;&#x2F;caniuse.com&#x2F;flexbox&quot;&gt;it could run on IE 11 with minimal hiccups&lt;&#x2F;a&gt;. I tried to be as universal as possible for the layouts of the site, with the mobile friendly layout being achievable in only a few blocks of media queries.&lt;&#x2F;p&gt;
+&lt;p&gt;While I planned on adding a Dark&#x2F;Light mode toggle, it required JavaScript, and I could not seem to get a minimal version working, so I decided to just use &lt;code&gt;prefers-color-scheme: dark&lt;&#x2F;code&gt; instead.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;And I think that&#x27;s all I have to say, thank you for spending the time to read this article!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>What is your flag?</title>
+        <published>2023-03-27T00:00:00+00:00</published>
+        <updated>2023-03-27T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://kaleidosium.github.io/notebook/what-is-your-flag/" type="text/html"/>
+        <id>https://kaleidosium.github.io/notebook/what-is-your-flag/</id>
+        
+        <content type="html">&lt;p&gt;I&#x27;ve showed my flag to a few people and I decided to make a post about it, here it is:&lt;&#x2F;p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;&#x2F;images&#x2F;notebook&#x2F;Personal%20Banner_1-Phi.png&quot; alt=&quot;Personal Banner of Dania Rifki.&quot; &#x2F;&gt;
+  &lt;figcaption&gt;My beautiful personal flag! ain&#x27;t it a beauty?&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;The symbolism of the flag is as follows:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Five Stars symbolises Liberalism, technocracy, pragmatism, consequentialism and Internationalism, it also references the olympic flag with the five continental rings&lt;&#x2F;li&gt;
+&lt;li&gt;The Compass Star is a symbol of me as an indivisible individual, but also a hope for a good future&lt;&#x2F;li&gt;
+&lt;li&gt;The Mauveine Purple represents Science and Technology&lt;&#x2F;li&gt;
+&lt;li&gt;The Blue Aster represents Art and Nature&lt;&#x2F;li&gt;
+&lt;li&gt;The two pales being equal represents the harmonious balance between the mind and the heart&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The standard definitions for the colours are:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;White&lt;&#x2F;li&gt;
+&lt;li&gt;Mauveine: Pantone PMS 2602 C&lt;&#x2F;li&gt;
+&lt;li&gt;Blue Aster: Pantone PMS 18-4252 TPG&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The aspect ratio of the flag is officially 1:φ, but &lt;a href=&quot;&#x2F;images&#x2F;notebook&#x2F;Personal%20Banner_2-3.png&quot;&gt;2:3 is also acceptable&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;This flag is an evolution on many previous designs that I have made through out my time as a vexillophile. Though I am no longer active around those circles, I still consider flags and other symbols of social constructs to be an interesting endeavour.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>How I design Robot Furries</title>
+        <published>2023-01-06T00:00:00+00:00</published>
+        <updated>2023-01-06T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://kaleidosium.github.io/notebook/how-i-design-robot-furries/" type="text/html"/>
+        <id>https://kaleidosium.github.io/notebook/how-i-design-robot-furries/</id>
+        
+        <content type="html">&lt;p&gt;An opinionated guide to designing mechanical furry characters.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;&#x2F;h2&gt;
+&lt;p&gt;Most people know me for designing and drawing furries that are also machines. But don&#x27;t know the exact process and how I approach designing them. Here is a write-up that hopefully would clarify my process.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;d like to preface that this is how &lt;em&gt;I&lt;&#x2F;em&gt; do things, I have, of course, known people who do things differently than me. And I feel like it&#x27;s good advice to ask and try out their techniques. So you have a wider net of knowledge you can reference.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-process&quot;&gt;The Process&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;find-references-for-the-design-style-that-you-want&quot;&gt;Find references for the design style that you want&lt;&#x2F;h3&gt;
+&lt;p&gt;&amp;quot;Robots&amp;quot; are kind of a broad category. There&#x27;s everything from steampunk, to 90s retro technology, to futuristic cyberpunk styles. To keep the design more in-line with the style I want. I search for reference images from a specific style of technology. Whether it is Steam Engines, Vintage Casio Keyboards, or Cyberdecks. You could also reference other characters in the style, but be wary of copying too much from them&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;I then put all the references on a mood board&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#2&quot;&gt;2&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;, and organise them to my liking. If you can, I also recommend searching for videos or articles about industrial design&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#3&quot;&gt;3&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; as that will help with the design process.&lt;&#x2F;p&gt;
+&lt;p&gt;If you aren&#x27;t sure which style of technology you want, that&#x27;s fine. You can try finding references and ideas that you like and put them into the mood board. Experiment! something interesting might happen from that.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;study-and-understand-the-references&quot;&gt;Study and Understand the References&lt;&#x2F;h4&gt;
+&lt;p&gt;I recommend studying the designs you picked as reference and understand why they exist so that when implemented into your work they serve a purpose. For example, if I particularly like the grating on something I might ask what function it&#x27;s serving, Is it Cooling? Speakers? Weight saving or structural reinforcement? Etc. If one can identify why it was used, they could then implement it for that purpose as well. Though there is nothing wrong with &amp;quot;just because it looks aesthetically neat&amp;quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s good to tell a story with your design and it can help a lot when you understand what everything you&#x27;ve added does and what it implies. It&#x27;s one of those things that sounds obvious but a lot of people just don&#x27;t think about it.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;design-languages&quot;&gt;Design Languages&lt;&#x2F;h4&gt;
+&lt;p&gt;If you&#x27;ve seen Apple products, you&#x27;ll notice they have an overarching design scheme. It&#x27;s because they follow what&#x27;s called a design language. This has been a thing with Apple Products since the 1980s, Apple used the Snow White design. As an example, it had parallel stripes to give the impression that the enclosure was smaller than it actually was&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#4&quot;&gt;4&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;. This is why you could reference a wide range of products from them in this or any other era and still keep the style very consistent.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;create-or-collect-character-references&quot;&gt;Create or collect character references&lt;&#x2F;h3&gt;
+&lt;p&gt;Some people want to design Robot Characters from scratch, and some people want to &amp;quot;roboticise&amp;quot; OCs like Dr Ivo &amp;quot;Eggman&amp;quot; Robotnik (Unlike Eggman, I would suggest you get consent if it&#x27;s not your OC).&lt;&#x2F;p&gt;
+&lt;p&gt;For the people who want to design &amp;quot;robot characters&amp;quot; from scratch. I recommend to first design characters like how you would usually (i.e. sketch an &amp;quot;organic&amp;quot; version of your character). People who want to &amp;quot;roboticise&amp;quot; their OCs can skip this step assuming they have a good reference (full-body preferred).&lt;&#x2F;p&gt;
+&lt;p&gt;Keep in mind that a &amp;quot;robotised&amp;quot; design does not have to be mutually exclusive from things that are &amp;quot;organic&amp;quot;. For example, the snow white design language which I mentioned earlier could be used to make your robot character look friendlier and more compact.&lt;&#x2F;p&gt;
+&lt;p&gt;Now put your character references on one side and your design references on another. See what characteristics of the styles could fit within the framework of the character. If you (or if you&#x27;re working on someone else&#x27;s character, their owner) are comfortable with liberally changing the design of the character, feel free.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;common-caveats&quot;&gt;Common Caveats&lt;&#x2F;h3&gt;
+&lt;p&gt;When in the design process, I sometimes fall into some common caveats. Some caveats I often see include:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Being afraid of not getting the robot design right at first. If you sketch your design first with all your ideas, you can step back and find design elements that you aren&#x27;t a fan of and revise them. None of us will get it right the first time&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#5&quot;&gt;5&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;, not here or in any other discipline.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Viewing this in exclusively a character illustration or industrial designer perspective. I have been guilty of this in the past. You should keep both general perspectives of character illustration and industrial design. But don&#x27;t let one of the two overpower the other too much.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Not imagining if the design works within mechanical principles. If the design of the robot makes sense from a mechanical standpoint, like its movement system, it may be a good idea. Otherwise, try revising the design.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Ignoring anatomy in more humanoid designs. If your robot design is more humanoid, please take organic anatomy into consideration. Hence, why I suggested making an organic design first if you&#x27;re making a new character.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Fall into a rabbit hole of referencing design with no consideration and overcomplicating the design. It&#x27;s fine to deviate from the style you want to mainly do. I encourage experimentation, but I recommend checking if it fits in with the other parts and&#x2F;or if you are sure you like it.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Exclusively rely on one or a few reference(s). It&#x27;s best to have a &amp;quot;big tent&amp;quot; base of references that you like. The design should look less derivative of a single product or thing&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Not considering if the robot design fits within the lore or setting of their world. Should be self-explanatory.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;now-draw&quot;&gt;Now, Draw&lt;&#x2F;h3&gt;
+&lt;p&gt;Apply everything that you know and start sketching out the character, and adjust as you complete the design. Be sure that everything fits or that you are happy with it. Once you&#x27;re finished with the drawing, congratulations! You did it!&lt;&#x2F;p&gt;
+&lt;p&gt;Sometimes going wild can be good, even if it doesn&#x27;t fit. What&#x27;s important is that you or the commissioner likes it, depending on whose character it is. The only rule to character design is that there are no rules, only general advice.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;special-thanks&quot;&gt;Special Thanks&lt;&#x2F;h2&gt;
+&lt;p&gt;I would like to thank Aistarin, Frogmary, lastfirst, Neko May, PinkHairedCat, et al. for the help and feedback on the draft. To anyone who found this helpful, thank you for reading!&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;footnotes&quot;&gt;Footnotes&lt;&#x2F;h3&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;Brookes Eggleston made a video about &lt;a href=&quot;https:&#x2F;&#x2F;youtu.be&#x2F;wl4N0SGtdbo&quot;&gt;how to derivative-proof your characters&lt;&#x2F;a&gt; which you should watch if you&#x27;re worried about this.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;2&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;2&lt;&#x2F;sup&gt;
+&lt;p&gt;See &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Mood_board&quot;&gt;Wikipedia to learn more&lt;&#x2F;a&gt; about them. For my workflow, I use &lt;a href=&quot;https:&#x2F;&#x2F;www.pureref.com&#x2F;&quot;&gt;PureRef&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;3&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;3&lt;&#x2F;sup&gt;
+&lt;p&gt;I recommend &lt;a href=&quot;https:&#x2F;&#x2F;youtu.be&#x2F;9uOMectkCCs&quot;&gt;Tony Fadell&#x27;s TED Talk&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;youtu.be&#x2F;iMtXqTmfta0&quot;&gt;Vox&#x27;s video on Design and Nature&lt;&#x2F;a&gt;, and &lt;a href=&quot;https:&#x2F;&#x2F;youtube.com&#x2F;playlist?list=PLBxFmL7WBL40nYeLmkzPHsNUxDhxkEohE&quot;&gt;Design Theory&#x27;s playlist on iconic industrial design&lt;&#x2F;a&gt; (Although, his entire channel is great, especially &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;playlist?list=PLBxFmL7WBL42_RqNcsf_cShdPAdIE8zj7&quot;&gt;the fundamentals playlist&lt;&#x2F;a&gt;) to start.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;4&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;4&lt;&#x2F;sup&gt;
+&lt;p&gt;I recommend watching &lt;a href=&quot;https:&#x2F;&#x2F;youtu.be&#x2F;h_6DKvyaP_I&quot;&gt;this video by The Computer Archive&lt;&#x2F;a&gt; to learn about the Snow White design language in-depth, and &lt;a href=&quot;https:&#x2F;&#x2F;youtu.be&#x2F;-NVxbYBkQdw&quot;&gt;this video by Tim Sutton&lt;&#x2F;a&gt; if you&#x27;d like to know about Apple&#x27;s Pre-iPod design language history and rationale.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;5&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;5&lt;&#x2F;sup&gt;
+&lt;p&gt;I certainly &lt;a href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;Kaleidrawings&#x2F;status&#x2F;1535948024593235969&quot;&gt;didn&#x27;t get it right when I started&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>My Art Style</title>
+        <published>2022-11-21T00:00:00+00:00</published>
+        <updated>2022-11-21T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://kaleidosium.github.io/notebook/my-art-style/" type="text/html"/>
+        <id>https://kaleidosium.github.io/notebook/my-art-style/</id>
+        
+        <content type="html">&lt;p&gt;Artists love talking about art styles, and I&#x27;m not sure I could relate.&lt;&#x2F;p&gt;
+&lt;p&gt;When I first started to take art seriously in Late 2019, I didn&#x27;t bother cultivating a style. I focused on getting started and learning the basics of illustration. The result was two years of inconsistent stylistic choices, and arguably it was a good thing.&lt;&#x2F;p&gt;
+&lt;p&gt;I experimented a lot in this era, trying different ways to approach a problem, and built up muscle memory. I played around with techniques I don&#x27;t usually do anymore, such as heavy cell shading and thick line art.&lt;&#x2F;p&gt;
+&lt;p&gt;Around 2022, something changed. I partially reversed my position on art styles. I had become more or less comfortable with the fundamentals. It was natural to want to experiment cultivating a distinctive style. I noticed that a personal style had started to emerge from 2+ years of experimentation. It had traits as follows:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Preference for conservative or no amounts of shading and highlights&lt;&#x2F;li&gt;
+&lt;li&gt;Simple (But not too simple) designs and shapes&lt;&#x2F;li&gt;
+&lt;li&gt;Contrast between lines and colours&lt;&#x2F;li&gt;
+&lt;li&gt;Sharp, clear, and thin line art&lt;&#x2F;li&gt;
+&lt;li&gt;Detail only where it&#x27;s necessary&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I realized that my style looked more and more like the Northwest European comics (e.g. Tintin) I grew up with as a child.&lt;&#x2F;p&gt;
+&lt;p&gt;When I was young, my parents were very strict. They only allowed 2 Hours of internet use (Going as far as banning internet usage completely for the entirety of 2015) and they dislike me watching Television. I also didn&#x27;t grow up with my generation&#x27;s other common artists&#x27; influence like Flipnote Studio.&lt;&#x2F;p&gt;
+&lt;p&gt;What I did have was a lot of books and comics. I got into these printed mediums and read them every day after school during this era. I started to draw a little around then, Yet, I never took it seriously.&lt;&#x2F;p&gt;
+&lt;p&gt;But, the impression I got from these comics from thousands of kilometres away seeped deeply into my style preferences. I have subconsciously developed my art style into something that can be seen as inspired by them.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;other-inspirations&quot;&gt;Other inspirations&lt;&#x2F;h2&gt;
+&lt;p&gt;Of course, Northwest European comics aren&#x27;t my only inspirations. Others include:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Some artists I follow(ed) online (too many to list)&lt;&#x2F;li&gt;
+&lt;li&gt;Local Indonesian comic artists&lt;&#x2F;li&gt;
+&lt;li&gt;Impressionist and Post-Impressionist Artworks&lt;&#x2F;li&gt;
+&lt;li&gt;the Bone comic series&lt;&#x2F;li&gt;
+&lt;li&gt;Raden Saleh&lt;&#x2F;li&gt;
+&lt;li&gt;Et cetera.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Having a wide range of inspirations is a good idea. To reiterate, I never planned my style to end up looking inspired by Tintin. It kind of happened by itself, and you can still see originality. I didn&#x27;t simply make a carbon copy of Hergé&#x27;s works but built on top of it with other inspirations.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Iron Law of Moderate Political Forums</title>
+        <published>2022-05-26T00:00:00+00:00</published>
+        <updated>2022-05-26T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://kaleidosium.github.io/notebook/the-iron-law-of-moderate-political-forums/" type="text/html"/>
+        <id>https://kaleidosium.github.io/notebook/the-iron-law-of-moderate-political-forums/</id>
+        
+        <content type="html">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;&#x2F;h2&gt;
+&lt;p&gt;I’m not the first to observe that some extremist political forums had a moderate start. This could be regular for-its-own-sake political forums, or what I call “counter-forums”, online forums made to counter another political forum. But I don’t think I’ve heard of a term to describe it, so I coined “The Iron Law of Moderate Political Forums” as a sort of nod to the Iron Law of Oligarchy as described in Why Nations Fail.&lt;&#x2F;p&gt;
+&lt;p&gt;For instance, r&#x2F;TheRightCantMeme had moderate Social Liberals and Social Democrats as regulars before going full far-leftist. Similarly, r&#x2F;GenUSA started to have its right-leaning members dominate. They caused a commotion when u&#x2F;khharagosh, a r&#x2F;neoliberal user, replied to a &lt;a href=&quot;&#x2F;images&#x2F;notebook&#x2F;genusa_khharagosh.jpg&quot;&gt;comment about abortion&lt;&#x2F;a&gt;, and I assume it’ll go the way of most of these forums.&lt;&#x2F;p&gt;
+&lt;p&gt;In a way, it is the reverse phenomenon of &lt;a href=&quot;https:&#x2F;&#x2F;tracingwoodgrains.medium.com&#x2F;r-antiwork-a-tragedy-of-sanewashing-and-social-gentrification-56298af1c1a7&quot;&gt;Sanewashing and Social Gentrification&lt;&#x2F;a&gt; as described by &lt;a href=&quot;https:&#x2F;&#x2F;reddit.com&#x2F;r&#x2F;neoliberal&#x2F;comments&#x2F;js84tu&#x2F;how_did_defund_the_police_stop_meaning_defund_the&#x2F;&quot;&gt;u&#x2F;inverseflorida&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;status451.com&#x2F;2016&#x2F;09&#x2F;15&#x2F;social-gentrification&#x2F;&quot;&gt;status451&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;While most of these examples use subreddits, I decided to use the generic name “forum” because I think this isn’t just a Reddit problem. It’s related to how humans with extreme views react to the other extreme side of a political debate online (Some non-subreddits like &lt;a href=&quot;https:&#x2F;&#x2F;kaleidosium.github.io&#x2F;notebook&#x2F;the-iron-law-of-moderate-political-forums&#x2F;images&#x2F;notebook&#x2F;rationalwiki_joebiden.png&quot;&gt;RationalWiki seemed to have fallen into this phenomenon as well&lt;&#x2F;a&gt;).&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-for-its-own-sake-example&quot;&gt;The For-Its-Own-Sake Example&lt;&#x2F;h2&gt;
+&lt;p&gt;Let’s start this with a timeline, Someone made a subreddit on Reddit, and it&#x27;s about a certain political topic. Usually, these subreddits already have a bias, however small due to the main topic it is discussing. For example, r&#x2F;IronFrontUSA already has a left bias due to it responding to the rise of the far-right in America. If it&#x27;s a general political subreddit, it could also be because of the main attitudes of the general site. On Reddit, that is left-wing populism. But, it &lt;em&gt;may&lt;&#x2F;em&gt; change, a reminder that before Bernie and the Democratic Socialists, r&#x2F;politics had a lot of Ron Paul and Goldbug Libertarians.&lt;&#x2F;p&gt;
+&lt;p&gt;At first, it most likely had a moderate-ish start, with moderates being the majority, with a minority of users being extremists. But over time, due to the spread of the knowledge of the subreddit to more extreme subs, the “Radicals” become the subreddit’s demography via Network Effects. Even pushing long-time Moderates out too, scaring them out. Thus finally making the subreddit from a moderate place to an extreme political subreddit.&lt;&#x2F;p&gt;
+&lt;p&gt;From casual observation, More moderate types generally have a tendency to move on from forums going sour, whilst the extreme types tend to coalesce as they are attracted by increasing concentration of views they agree with.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-counter-forum-example&quot;&gt;The Counter-Forum Example&lt;&#x2F;h2&gt;
+&lt;p&gt;It’s a similar story, but with some additions. Let’s say there&#x27;s a right-wing subreddit dedicated to mocking “leftists” (which also tends to include Liberals and people not from the Socialist tradition). There’s also likely a left-wing counter subreddit dedicated to mocking “righties”. It also doesn’t have to counter one forum, it could also be an umbrella counter-forum that was made in response to several right-wing forums.&lt;&#x2F;p&gt;
+&lt;p&gt;Like with the For-Its-Own-Sake Example, the extremists (in this case the extreme left i.e. Tankies) take over and push out the moderates (in this case Social Liberals and Moderate Social Democrats&#x2F;Socialists). Yet, it could also make the original extreme subreddit it was countering even more extreme.&lt;&#x2F;p&gt;
+&lt;p&gt;So in the case of this right-wing subreddit. You start seeing Religious Theocrats, Fascists, and other flavours of the extreme right popping up there and being the “regular” users. Thankfully, Reddit tends to be more hostile to right-wing extremists than left-wing extremists, so this point is at least moot there. It is still a concern on other sites.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;why-does-it-happen&quot;&gt;Why does it happen?&lt;&#x2F;h2&gt;
+&lt;p&gt;Part of the radicalization of forums might be a related law called the &amp;quot;The Law of Group Polarization&amp;quot;. Especially as more like minded people take over a more general group via the iron law to set a direction for group polarization to happen.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;deliberation tends to move groups, and the individuals who compose them, toward a more extreme point in the direction indicated by their own predeliberation judgments.&amp;quot; &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;(Thanks to u&#x2F;Stormtrooper01 for the citation)&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;how-do-we-break-it&quot;&gt;How do we break it?&lt;&#x2F;h2&gt;
+&lt;p&gt;So, how do we break this “Iron Law”, I can only think of one solution that works. Strict moderating and Audit of forum users to gatekeep the extremists. This is what r&#x2F;neoliberal does, while its regulars love to complain about its “fash” mods. They are doing a favour by making sure the discussion stays moderate and that extremist users behave and&#x2F;or stay out.&lt;&#x2F;p&gt;
+&lt;p&gt;As of now, r&#x2F;neoliberal&#x27;s model is the only true solution to this iron law problem that I know of, despite the mods being trigger-happy at times. Perhaps one day we&#x27;ll have a more libertarian model that isn&#x27;t too beholden to the whims of the mods.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;addendum&quot;&gt;Addendum&lt;&#x2F;h2&gt;
+&lt;p&gt;After Posting this, I felt compelled adding a comment made by u&#x2F;WumpaMunch that I felt would be appropriate for this Essay.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Is it possible that more moderate types have a greater tendency to move on from forums going sour, whilst the extreme types tend to coalesce as they are attracted by increasing concentration of views they agree with?
+Perhaps, to supplement the mods, we need to cultivate a &amp;quot;social immunity&amp;quot; to concentrations of extremists. We should all individually call out trends towards extremism and dogma (politely and respectfully where possible). This works very well against fascism in the physical world, and could work in the virtual.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;tl-dr&quot;&gt;TL;DR&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;em&gt;The Iron Law of Moderate Political Forums stipulates that any moderate political smelling forums will ultimately have people from the extreme side of the same wing taking over, thus making it an extremist forum. In the case of forums made to counter another political forum, It may also make the original forum(s) it was countering more radical in response. It is essentially inevitable without proper and strict moderation and gatekeeping of the extremists.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;neoliberal&#x2F;comments&#x2F;uy2w1m&#x2F;the_iron_law_of_moderate_political_forums_an&#x2F;&quot;&gt;Original post and discussion on r&#x2F;neoliberal&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;Cass R. Sunstein, &amp;quot;The Law of Group Polarization&amp;quot; (John M. Olin Program in Law and Economics Working Paper No. 91, 1999).&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>FOSSBros and Stallmanists</title>
+        <published>2020-02-26T00:00:00+00:00</published>
+        <updated>2020-02-26T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://kaleidosium.github.io/notebook/foss-is-cool/" type="text/html"/>
+        <id>https://kaleidosium.github.io/notebook/foss-is-cool/</id>
+        
+        <content type="html">&lt;blockquote&gt;
+&lt;p&gt;NOTE: This is an old article written for an old website. I have updated and removed parts of this essay to fit my current views on this issue.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;preface&quot;&gt;Preface&lt;&#x2F;h2&gt;
+&lt;p&gt;First of all, I don&#x27;t hate FOSS (if that were the case I wouldn&#x27;t have released my code on GitHub), but there are people (like &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;TerryCavanagh&#x2F;VVVVVV&#x2F;issues&#x2F;7&quot;&gt;this mob&lt;&#x2F;a&gt;) who irritate me beyond end. These people (Whom I will call FOSSbros) are easily the worst, they&#x27;re worse than RIIRers (I really mean it), and good god I&#x27;m so glad my dumb young-self didn&#x27;t become one of them (well, I almost became them at one point).&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;free-as-in-toilet&quot;&gt;&lt;a href=&quot;http:&#x2F;&#x2F;unhandledexpression.com&#x2F;general&#x2F;2018&#x2F;11&#x2F;27&#x2F;foss-is-free-as-in-toilet.html&quot;&gt;Free as in toilet&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Software needs maintenance, and it just so happens that managing a large FOSS project can get really really ugly. From &amp;quot;clean coders&amp;quot;, RIIR people, and worst of all (like the mob I linked earlier) Stallmanists. Stallmanists are a subset of FOSSbros who want all code to be under the GPLv3 license (&lt;a href=&quot;https:&#x2F;&#x2F;news.slashdot.org&#x2F;story&#x2F;20&#x2F;01&#x2F;24&#x2F;2211238&#x2F;free-software-foundation-suggests-microsoft-upcycle-windows-7-as-open-source&quot;&gt;and of course they make a fool out of themselves&lt;&#x2F;a&gt;). So not only do FOSS maintainers have to deal with all of that (and more), they have to also do their job as programmers (well, FOSS maintainers aren&#x27;t always programmers from what I&#x27;ve seen, but most of them, anyway) and spend time maintaining, updating, adding new features, while getting almost nothing in return (unless if they have a patreon or OpenCollective). A Fortune 500 company starred your repo?, well too bad, you&#x27;re not getting everything more than that.&lt;&#x2F;p&gt;
+&lt;p&gt;This is why people are afraid of releasing their code as FOSS, I don&#x27;t blame them either, Closed source maintenance seems to be saner than the FOSS circus (at least in my experience and the people I talked to&#x27;s experiences).&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;fuck-you-pay-me&quot;&gt;Fuck you, pay me&lt;&#x2F;h3&gt;
+&lt;p&gt;About Fortune 500 companies not paying for that software, that has been the trump card of anti-FOSS people for a while now. Sadly it is a real thing, Fortune 500 companies use people&#x27;s FOSSware for completely free while not giving back a single nickel or contribution. some Stallmanists may now think that the solution is GPLv3, but I&#x27;m going to discuss why it isn&#x27;t.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;stallmanists&quot;&gt;Stallmanists&lt;&#x2F;h3&gt;
+&lt;p&gt;I discussed Stallmanists a bit in a previous section. But I want to talk about them a bit more. I believe that they are the worst people in the god damn software world. and they are everywhere preaching companies to release their code as GPLv3. People who say that&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Companyies awe the wowst entities in the wowwd, they&#x27;we puwe eviw and we shouwd make ouw wicense to powew the peopwe and make companyies go bankwupt&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;are delusional, although I still don&#x27;t like the idea of multi-national companies using FOSS to spy on people, they&#x27;re not as bad as say Chinese Black Hats who have a track record of straight up ignoring copy-left licenses.&lt;&#x2F;p&gt;
+&lt;p&gt;I don&#x27;t even think most copyleft licenses are that good, but I&#x27;ll refrain from ranting on that here.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;foss-magic&quot;&gt;FOSS &amp;quot;Magic&amp;quot;&lt;&#x2F;h3&gt;
+&lt;p&gt;Some people often rave about how FOSS is just magic, how it just works, how the &amp;quot;evil&amp;quot; closed source is harder to use and shit, the thing is though, the open&#x2F;closeness of the software &lt;em&gt;doesn&#x27;t matter for software quality&lt;&#x2F;em&gt;. GIMP is significantly worse than Photoshop in my and several designer&#x27;s experience, the thing that makes software in general seems magical is how the code is well, programmed. there&#x27;s little corelation of FOSS software being better just because it&#x27;s open source, Blender took ages for it to be good.&lt;&#x2F;p&gt;
+&lt;p&gt;Point is, it doesn&#x27;t matter if it&#x27;s closed or open, I use what works, and so should you.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
