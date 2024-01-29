@@ -9,9 +9,7 @@ I'm a Transgender Girl [She/Her] with origins in Jakarta, Indonesia. My main int
 
 I realised I wasn't cisgender in around May 2019, but came fully to accept being a Trans Woman in around December that year. Due to familial and political issues, I have not been able to start transitioning. Though I hope to start transitioning as soon as possible.
 
-I am bisexual and polyarmous, my partners are the lovely [PrimalPeashooter](https://primalpeashooter.github.io/) and [VeeSheep](https://veesheebuuu.tumblr.com/)!
-
-![My Flags](/images/flags.png)
+I am bisexual and polyarmous, my partner is the lovely [PrimalPeashooter](https://primalpeashooter.github.io/)!
 
 ## What is this website?
 
@@ -20,6 +18,8 @@ This is my little personal website; It is where I write thoughts that cannot fit
 [My website went through plenty revisions over the years](https://github.com/Kaleidosium/Kaleidosium.github.io/commits/main); I don't think that will end any time soon, but I'm pretty happy with what I have right now. The site design has always fluctuated from being very basic to being more heavy, I think this iteration strikes a good balance between the two.
 
 It is powered by [Zola](https://www.getzola.org/), a good flexible SSG with a bit of a learning curve. All content on this website is licensed under CC BY-SA 4.0 unless stated otherwise.
+
+The background pattern has a headshot of my fursona drawn by [rdpchs_indo](https://rdpchsindo.carrd.co/).
 
 ---
 
