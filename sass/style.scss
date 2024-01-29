@@ -99,7 +99,7 @@ h1 {
   font-weight: 400;
   font-size: 42pt;
 
-  .--text-font {
+  .--accent-font {
     font-size: 47pt;
     font-weight: 300;
   }
@@ -107,7 +107,7 @@ h1 {
   @media only screen and (max-width: base.$mobile) {
     font-size: 38pt;
 
-    .--text-font {
+    .--accent-font {
       font-size: 42pt;
     }
   }
@@ -266,4 +266,8 @@ svg#kaleidosium-symbol {
 
 .--text-font {
   font-family: base.$text-font;
+}
+
+.--accent-font {
+  font-family: base.$accent-font;
 }
