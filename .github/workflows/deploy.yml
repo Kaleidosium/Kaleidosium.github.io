@@ -1,18 +1,29 @@
-name: Zola on GitHub Pages
-
+name: Deploy to GitHub Pages
 on:
-  push:
-    branches:
+  push:	
+    branches:	
       - main
 
 jobs:
-  build:
-    name: Publish site
-    runs-on: ubuntu-latest
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest    
     steps:
-      - name: Checkout main
-        uses: actions/checkout@v3.0.0
-      - name: Build and deploy
-        uses: shalzz/zola-deploy-action@v0.17.2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: lts
+    
+    - name: Install and Build
+      run: |
+        npm install
+        npm run build
+
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: gh-pages # The branch the action should deploy to.
+        folder: public # The folder the action should deploy.
