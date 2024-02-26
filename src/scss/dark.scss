@@ -1,0 +1,74 @@
+@use 'base';
+
+@media (prefers-color-scheme: dark) {
+  body,
+  p,
+  ul,
+  ol {
+    color: base.$light-color;
+  }
+
+  :root {
+    @media only screen and (min-width: base.$mobile) {
+      background-image: url('$lib/images/dania_pixel_dark.png');
+    }
+    
+    background-color: base.$bg-color-dark !important;
+  }
+
+  hr {
+    border-top: 1px solid base.$light-color;
+    color: base.$light-color;
+  }
+
+  hr:after {
+    background: base.$dark-color;
+  }
+
+  figcaption {
+    background-color: base.$bg-color-dark;
+  }
+
+  a {
+    color: #00bfff;
+  }
+
+  a:visited,
+  .--accent-color {
+    color: base.$accent-color-dark;
+  }
+
+  thead {
+    background-color: base.$accent-color-dark;
+    color: base.$dark-color;
+  }
+
+  tbody {
+    tr:nth-child(odd) {
+      background-color: base.$bg-color-dark;
+    }
+
+    tr:nth-child(even) {
+      background-color: #8a628d;
+    }
+  }
+
+  svg#kaleidosium-symbol {
+    fill: base.$accent-color-dark;
+  }
+
+  pre {
+    border-left: solid base.$accent-color-dark;
+  }
+
+  blockquote {
+    margin: 0;
+    border-left: solid base.$accent-color-dark;
+  }
+
+  section.sidebar > nav,
+  section.content {
+    background-color: base.$dark-color;
+    box-shadow: 12px 12px 0 base.$accent-color-dark;
+  }
+}
