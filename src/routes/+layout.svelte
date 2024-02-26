@@ -7,6 +7,15 @@
 </script>
 
 <svelte:head>
+  <meta name="description" content="The element of beautiful forms." />
+  <meta name="msapplication-TileColor" content="#c89dcc" />
+  <meta name="theme-color" content="#89029c" />
+  <meta property="og:title" content="Kaleidosium" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="Kaleidosium.github.io" />
+  <meta property="og:image" content='\favicon.png' />
+  <meta property="og:description" content="The element of beautiful forms." />
+
   <link
     rel="stylesheet"
     media="screen"
