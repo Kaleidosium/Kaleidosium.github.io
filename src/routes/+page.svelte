@@ -1,5 +1,9 @@
+<script lang="ts">
+  import * as config from '$lib/config';
+</script>
+
 <svelte:head>
-  <title>Kaleidosium | The element of beautiful forms</title>
+  <title>{config.title} | {config.description}</title>
 </svelte:head>
 
 <h1 id="Title" class="title">
