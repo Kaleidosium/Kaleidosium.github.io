@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Kaleidosium | The element of beautiful forms</title>
+  <title>Kaleidosium | The element of beautiful forms</title>
 </svelte:head>
 
 <h1 id="Title" class="title">
@@ -18,7 +18,7 @@
   </p>
 </blockquote>
 <hr />
-<h2 class="header">Greetings &lt3 </h2>
+<h2 class="header">Greetings &lt3</h2>
 <p>
   My name is
   <span class="--title-font --accent-color"><strong>Dania Rifki</strong></span>

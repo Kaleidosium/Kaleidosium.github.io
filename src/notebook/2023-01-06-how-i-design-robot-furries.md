@@ -1,8 +1,8 @@
 ---
 title: How I design Robot Furries
 date: '2023-01-06'
-categories: 
-  - effortpost 
+categories:
+  - effortpost
   - monet
 published: true
 ---
@@ -78,11 +78,7 @@ I would like to thank Aistarin, Frogmary, lastfirst, Neko May, PinkHairedCat, et
 ### Footnotes
 
 [^1]: Brookes Eggleston made a video about [how to derivative-proof your characters](https://youtu.be/wl4N0SGtdbo) which you should watch if you're worried about this.
-
 [^2]: See [Wikipedia to learn more](https://en.wikipedia.org/wiki/Mood_board) about them. For my workflow, I use [PureRef](https://www.pureref.com/).
-
 [^3]: I recommend [Tony Fadell's TED Talk](https://youtu.be/9uOMectkCCs), [Vox's video on Design and Nature](https://youtu.be/iMtXqTmfta0), and [Design Theory's playlist on iconic industrial design](https://youtube.com/playlist?list=PLBxFmL7WBL40nYeLmkzPHsNUxDhxkEohE) (Although, his entire channel is great, especially [the fundamentals playlist](https://www.youtube.com/playlist?list=PLBxFmL7WBL42_RqNcsf_cShdPAdIE8zj7)) to start.
-
 [^4]: I recommend watching [this video by The Computer Archive](https://youtu.be/h_6DKvyaP_I) to learn about the Snow White design language in-depth, and [this video by Tim Sutton](https://youtu.be/-NVxbYBkQdw) if you'd like to know about Apple's Pre-iPod design language history and rationale.
-
 [^5]: I certainly [didn't get it right when I started](https://twitter.com/Kaleidrawings/status/1535948024593235969).

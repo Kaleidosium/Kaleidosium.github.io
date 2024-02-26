@@ -1,5 +1,5 @@
 ---
-title:  FOSSBros and Stallmanists
+title: FOSSBros and Stallmanists
 date: '2020-02-26'
 categories:
   - lovelace

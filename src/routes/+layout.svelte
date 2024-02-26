@@ -1,4 +1,6 @@
-<script>
+<script lang="ts">
+  import { base } from '$app/paths';
+
   import '../scss/app.scss';
   import '../scss/dark.scss';
   import '../scss/print.scss';
@@ -21,7 +23,7 @@
     <section class="sidebar">
       <nav>
         <div id="logo-image">
-          <a href="/">
+          <a href="{base}/">
             <svg
               alt="The Kaleidosium Symbol, A mauveine compass rose symbolising technological progress and a hopeful future"
               width="160px"
@@ -65,11 +67,11 @@
         <hr />
         <!-- <button id="menu-toggle" class="menu-toggle">Menu</button> -->
         <div id="nav-links" class="nav-links collapsed">
-          <a class="nav-element" href="/">Home</a>
+          <a class="nav-element" href="{base}/">Home</a>
           <ul>
             <li class="nav-header">Creations</li>
             <li class="nav-element">
-              <a href="/notebook">Notebook</a>
+              <a href="{base}/notebook">Notebook</a>
             </li>
             <!-- <li class="nav-element">
               <a href="/">Programming</a>
@@ -82,7 +84,7 @@
           <ul>
             <li class="nav-header">Info</li>
             <li class="nav-element">
-              <a href="/about">About</a>
+              <a href="{base}/about">About</a>
             </li>
             <!-- <li class="nav-element">
               <a href="/">Links and Contact</a>

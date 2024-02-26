@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>About</title>
+<title>About</title>
 </svelte:head>
 
 # About
@@ -26,8 +26,7 @@ The background pattern has a pixel drawing of my fursona by [PixelBunny821](http
 
 ```js
 console.log(
-  `%c `.repeat(5),...`5CFFABFFFFAB5CF`
-  .match(/.../g)
-  .map(c => `background:#${c};display:block;padding:2%26%`)
-)
+  `%c `.repeat(5),
+  ...`5CFFABFFFFAB5CF`.match(/.../g).map(c => `background:#${c};display:block;padding:2%26%`)
+);
 ```

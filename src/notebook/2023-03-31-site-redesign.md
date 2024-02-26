@@ -1,7 +1,7 @@
 ---
 title: Website Redesign
 date: '2023-03-31'
-categories: 
+categories:
   - opinion
   - lovelace
 published: true
@@ -34,7 +34,7 @@ I've also added a printer-friendly layout if anyone is interested in printing my
 
 While I don't have much to say about the design of the website, the code I have plenty to say. This website was made with the [Zola SSG](https://www.getzola.org/), It's pretty barebones and has a learning curve, but it is very flexible and powerful if you manage to wield it.
 
-The stylesheets were done in SCSS, which I love and missed working with for the longest time. One feature that I quite like is the lack of JavaScript use for the website, while I'm not a anti-JS luddite like *some people*, I do believe in minimising the usage of it when possible.
+The stylesheets were done in SCSS, which I love and missed working with for the longest time. One feature that I quite like is the lack of JavaScript use for the website, while I'm not a anti-JS luddite like _some people_, I do believe in minimising the usage of it when possible.
 
 The HTML is also mainly semantic to make it work nice with screen readers and increase accessibility. I was inspired by the [CUBE CSS](https://cube.fyi/) methodology for the styling structure of the website, particularly since I wasn't a huge fan of BEM's avoidance of CSS when I designed websites in the past, and CUBE made CSS genuinely enjoyable for me again, albeit I did diverge from the methodology in minor ways.
 

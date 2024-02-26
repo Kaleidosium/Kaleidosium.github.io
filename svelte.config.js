@@ -1,16 +1,15 @@
-import adapter from '@sveltejs/adapter-auto';
-import { mdsvex } from "mdsvex";
-import rehypeSlug from 'rehype-slug'
-import remarkUnwrapImages from 'remark-unwrap-images'
+import adapter from '@sveltejs/adapter-static';
+import { mdsvex } from 'mdsvex';
+import rehypeSlug from 'rehype-slug';
+import remarkUnwrapImages from 'remark-unwrap-images';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
-	extensions: ['.md'],
+  extensions: ['.md'],
   remarkPlugins: [remarkUnwrapImages],
-	rehypePlugins: [rehypeSlug]
-}
-
+  rehypePlugins: [rehypeSlug],
+};
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -27,7 +26,8 @@ const config = {
 
       // Adds IDs to headings, and anchor links to those IDs. Note: must stay in this order to work.
       // rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings],
-    }), [vitePreprocess(), mdsvex(mdsvexOptions)],
+    }),
+    [vitePreprocess(), mdsvex(mdsvexOptions)],
   ],
 
   kit: {
@@ -35,6 +35,10 @@ const config = {
     // If your environment is not supported or you settled on a specific environment, switch out the adapter.
     // See https://kit.svelte.dev/docs/adapters for more information about adapters.
     adapter: adapter(),
+
+    paths: {
+      base: process.env.NODE_ENV === 'production' ? '/kaleidosium.github.io' : '',
+    },
   },
 };
 

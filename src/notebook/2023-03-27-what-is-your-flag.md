@@ -1,7 +1,7 @@
 ---
 title: What is your flag?
 date: '2023-03-27'
-categories: 
+categories:
   - opinion
   - monet
 published: true
