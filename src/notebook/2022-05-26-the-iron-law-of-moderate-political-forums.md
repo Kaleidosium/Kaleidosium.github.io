@@ -11,11 +11,11 @@ published: true
 
 I’m not the first to observe that some extremist political forums had a moderate start. This could be regular for-its-own-sake political forums, or what I call “counter-forums”, online forums made to counter another political forum. But I don’t think I’ve heard of a term to describe it, so I coined “The Iron Law of Moderate Political Forums” as a sort of nod to the Iron Law of Oligarchy as described in Why Nations Fail.
 
-For instance, r/TheRightCantMeme had moderate Social Liberals and Social Democrats as regulars before going full far-leftist. Similarly, r/GenUSA started to have its right-leaning members dominate. They caused a commotion when u/khharagosh, a r/neoliberal user, replied to a [comment about abortion](src/lib/images/notebook/genusa_khharagosh.jpg), and I assume it’ll go the way of most of these forums.
+For instance, r/TheRightCantMeme had moderate Social Liberals and Social Democrats as regulars before going full far-leftist. Similarly, r/GenUSA started to have its right-leaning members dominate. They caused a commotion when u/khharagosh, a r/neoliberal user, replied to a [comment about abortion](/images/notebook/genusa_khharagosh.jpg), and I assume it’ll go the way of most of these forums.
 
 In a way, it is the reverse phenomenon of [Sanewashing and Social Gentrification](https://tracingwoodgrains.medium.com/r-antiwork-a-tragedy-of-sanewashing-and-social-gentrification-56298af1c1a7) as described by [u/inverseflorida](https://reddit.com/r/neoliberal/comments/js84tu/how_did_defund_the_police_stop_meaning_defund_the/) and [status451](https://status451.com/2016/09/15/social-gentrification/).
 
-While most of these examples use subreddits, I decided to use the generic name “forum” because I think this isn’t just a Reddit problem. It’s related to how humans with extreme views react to the other extreme side of a political debate online (Some non-subreddits like [RationalWiki seemed to have fallen into this phenomenon as well](src/lib/images/notebook/rationalwiki_joebiden.png)).
+While most of these examples use subreddits, I decided to use the generic name “forum” because I think this isn’t just a Reddit problem. It’s related to how humans with extreme views react to the other extreme side of a political debate online (Some non-subreddits like [RationalWiki seemed to have fallen into this phenomenon as well](/images/notebook/rationalwiki_joebiden.png)).
 
 ## The For-Its-Own-Sake Example
 

@@ -23,7 +23,7 @@
     <section class="sidebar">
       <nav>
         <div id="logo-image">
-          <a href="{base}/">
+          <a href="/">
             <svg
               alt="The Kaleidosium Symbol, A mauveine compass rose symbolising technological progress and a hopeful future"
               width="160px"
@@ -67,11 +67,11 @@
         <hr />
         <!-- <button id="menu-toggle" class="menu-toggle">Menu</button> -->
         <div id="nav-links" class="nav-links collapsed">
-          <a class="nav-element" href="{base}/">Home</a>
+          <a class="nav-element" href="/">Home</a>
           <ul>
             <li class="nav-header">Creations</li>
             <li class="nav-element">
-              <a href="{base}/notebook">Notebook</a>
+              <a href="/notebook">Notebook</a>
             </li>
             <!-- <li class="nav-element">
               <a href="/">Programming</a>
@@ -84,7 +84,7 @@
           <ul>
             <li class="nav-header">Info</li>
             <li class="nav-element">
-              <a href="{base}/about">About</a>
+              <a href="/about">About</a>
             </li>
             <!-- <li class="nav-element">
               <a href="/">Links and Contact</a>

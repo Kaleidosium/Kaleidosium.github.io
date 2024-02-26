@@ -10,7 +10,7 @@ published: true
 I've showed my flag to a few people and I decided to make a post about it, here it is:
 
 <figure>
-  <img src="src/lib/images/notebook/Personal Banner_1-Phi.png" alt="Personal Banner of Dania Rifki." />
+  <img src="/images/notebook/Personal Banner_1-Phi.png" alt="Personal Banner of Dania Rifki." />
   <figcaption>My beautiful personal flag! ain't it a beauty?</figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ The standard definitions for the colours are:
 - Mauveine: Pantone PMS 2602 C
 - Blue Aster: Pantone PMS 18-4252 TPG
 
-The aspect ratio of the flag is officially 1:φ, but [2:3 is also acceptable](src/lib/images/notebook/Personal%20Banner_2-3.png).
+The aspect ratio of the flag is officially 1:φ, but [2:3 is also acceptable](/images/notebook/Personal%20Banner_2-3.png).
 
 ---
 
