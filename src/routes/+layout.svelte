@@ -13,7 +13,7 @@
   <meta property="og:title" content="Kaleidosium" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="Kaleidosium.github.io" />
-  <meta property="og:image" content='\favicon.png' />
+  <meta property="og:image" content='/favicon.png' />
   <meta property="og:description" content="The element of beautiful forms." />
 
   <link
