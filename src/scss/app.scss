@@ -62,9 +62,8 @@
     padding: 0;
   }
 
-  a,
-  blockquote {
-    font-style: italic;
+  a, figure, 
+  blockquote, .tags {
     font-family: base.$accent-font;
   }
 
