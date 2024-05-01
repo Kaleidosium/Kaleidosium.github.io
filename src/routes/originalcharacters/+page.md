@@ -1,4 +1,4 @@
 <svelte:head>
 
-<title>Original Character</title>
+<title>Original Characters</title>
 </svelte:head>

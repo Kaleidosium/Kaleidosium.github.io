@@ -14,7 +14,7 @@ title = "Dania Lovelace"
 | Height        | 180cm                                                   |
 | Occupation(s) | Programmer, Computer Scientist                          |
 | Education     | Physics (M.S.)                                          |
-| Spouse        | [Sofia Saffron Swift](/originalcharacters/sofia-swift/) |
+| Spouse        | [Sofia Singshow Swift](/originalcharacters/sofia-swift/) |
 
 Dania Lovelace is a computer scientist and programmer. She is my fursona and the oldest character I still use today.
 
@@ -22,7 +22,7 @@ Dania Lovelace is a computer scientist and programmer. She is my fursona and the
 
 Dania Lovelace was built as a male android in a government project to revive the Dhole in Indonesia, however due to mishaps during her creation process, she had female programming. She fled the facility she was held in, due to the fact that reprogramming her would erase her personality. She joined a freedom fighting rebellion group who modified her chassis to be more women-like, where she learned programming, cryptography and cyber security and became a blackhat. After a while, they managed to overthrow the government, but Dania felt betrayed by the group after abandoning their principles and fled away. But not before finding the unused female android's chassis (which included an Exoskin that made her look like an Organic) and transferring her mind to it.
 
-She fled away, and started to study Physics in a University. After graduating, she got a full-time job as a Physics programmer at a medium-sized games studio. She met her future wife Sofia Saffron Swift around this time near a Games Conference she was attending in Montreal.
+She fled away, and started to study Physics in a University. After graduating, she got a full-time job as a Physics programmer at a medium-sized games studio. She met her future wife Sofia Singshow Swift around this time near a Games Conference she was attending in Montreal.
 
 She eventually became one of the leaders of the international Robot Rights movement after revealing that she was a robot all along. and helped drafted the Universal Declaration of Robot Rights, ending most hostility between Organics and Machines.
 
