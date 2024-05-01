@@ -1,5 +1,5 @@
 ---
-title = 'Rosa "Rose" Aster-Weiß'
+title: Rosa "Rose" Aster-Weiß
 ---
 
 TODO.

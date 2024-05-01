@@ -1,5 +1,5 @@
 ---
-title = 'Lawrence "Lance" Howick Haze'
+title: Lawrence "Lance" Howick Haze
 ---
 
 TODO.

@@ -1,5 +1,5 @@
 ---
-title = "Sofia Singshow Swift"
+title: Sofia Singshow Swift
 ---
 
 TODO.

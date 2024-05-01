@@ -1,5 +1,5 @@
 ---
-title = "Lucian Scotia Dynamite"
+title: Lucian Scotia Dynamite
 ---
 
 TODO.

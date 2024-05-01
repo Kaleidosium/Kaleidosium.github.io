@@ -1,5 +1,5 @@
 ---
-title = "Fyren Henry-Asquith"
+title: Fyren Henry-Asquith
 ---
 
 TODO.

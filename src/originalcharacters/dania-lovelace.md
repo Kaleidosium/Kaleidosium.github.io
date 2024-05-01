@@ -1,5 +1,5 @@
 ---
-title = "Dania Lovelace"
+title: Dania Lovelace
 ---
 
 ![A drawing of Dania Lovelace, Model Number D4-N14](/images/originalcharacters/dania-lovelace/DaniaLovelace.png)
