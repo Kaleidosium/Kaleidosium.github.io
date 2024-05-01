@@ -1,4 +1,4 @@
-import{s as V,n as j}from"../chunks/scheduler.Bmg8oFKD.js";import{S as W,i as X,s,e as n,h as Z,d as l,c as a,a as o,g as m,b as T,f as i}from"../chunks/index.C61lMPvp.js";import{t as $,d as tt}from"../chunks/config.nJ1h8FIg.js";function et(Q){let H,u,A='Kaleidos<span class="--accent-font ium"><em>ium</em></span>',_,c,E=`<span class="--title-font --accent-color"><strong>/kəˈlaɪdəziəm/</strong></span>
+import{s as V,n as j}from"../chunks/scheduler.Bmg8oFKD.js";import{S as W,i as X,s,e as n,h as Z,d as l,c as a,a as o,g as m,b as T,f as i}from"../chunks/index.C_y2PduF.js";import{t as $,d as tt}from"../chunks/config.nJ1h8FIg.js";function et(Q){let H,u,A='Kaleidos<span class="--accent-font ium"><em>ium</em></span>',_,c,E=`<span class="--title-font --accent-color"><strong>/kəˈlaɪdəziəm/</strong></span>
   [kuh-lie-doe-si-um]`,k,r,G="<em>noun</em>",w,f,N="<p>A chemical element with symbol Kal and atomic number φ. It is the element of beautiful forms.</p>",L,y,M,h,O="Greetings <3",P,d,U=`My name is
   <span class="--title-font --accent-color"><strong>Dania Rifki</strong></span>
   [She/Her], though my username is
