@@ -19,10 +19,6 @@
     media="screen"
     href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-material-dark.min.css"
   />
-
-  <link rel="stylesheet" media="screen" href="https://unpkg.com/sanitize.css" />
-  <link rel="stylesheet" media="screen" href="https://unpkg.com/sanitize.css/reduce-motion.css" />
-  <link rel="stylesheet" media="all" href="https://unpkg.com/sanitize.css/typography.css" />
 </svelte:head>
 
 <body>
