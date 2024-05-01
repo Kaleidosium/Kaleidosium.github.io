@@ -5,7 +5,5 @@
 <section>
   <h1 id="Title" class="title">Original Characters</h1>
 
-  <p>
-    My Original Characters!
-  </p>
+  <p>My Original Characters! The most important ones.</p>
 </section>
