@@ -27,10 +27,11 @@
   My name is
   <span class="--title-font --accent-color"><strong>Dania Rifki</strong></span>
   [She/Her], though my username is
-  <span class="--accent-font"><em>Kaleidosium</em></span> (alternatively
-  <span class="--accent-font"><em>AtomicNumberPhi</em></span> on some platforms). I'm a gal with origins
-  in Jakarta, Indonesia. I mainly do computer science-related work, though I have an interest in basically
-  everything about the world.
+  <span class="--accent-font"><em>Kaleidosium</em></span>
+  (alternatively
+  <span class="--accent-font"><em>AtomicNumberPhi</em></span>
+  on some platforms). I'm a gal with origins in Jakarta, Indonesia. I mainly do computer science-related
+  work, though I have an interest in basically everything about the world.
 </p>
 <p>
   This is my little personal website; It is where I write thoughts that cannot fit in microblogging
@@ -46,12 +47,22 @@
   <li><a href="https://trans.house/@kaleidosium">Fediverse</a></li>
   <li><a href="https://reddit.com/user/atomicnumberphi/">Reddit</a></li>
   <li><a href="https://kaleidosium.newgrounds.com">Newgrounds</a></li>
-  <li><a href="https://twitter.com/kaleidosium">Twitter</a> (art only)</li>
+  <li>
+    <a href="https://twitter.com/kaleidosium">Twitter</a>
+    (art only)
+  </li>
   <li><a href="https://youtube.com/@Kaleidosium">YouTube</a></li>
 </ul>
 <p>
   You may e-mail me on
-  <span class="--title-font">atomicnumberphi</span>[<code>at</code>]<span class="--title-font"
-    >gmail</span
-  >[<code>dot</code>]<span class="--title-font">com</span>!
+  <span class="--title-font">atomicnumberphi</span>
+  [
+  <code>at</code>
+  ]
+  <span class="--title-font">gmail</span>
+  [
+  <code>dot</code>
+  ]
+  <span class="--title-font">com</span>
+  !
 </p>

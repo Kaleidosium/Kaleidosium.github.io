@@ -11,7 +11,7 @@
   <meta name="description" content="{config.description}." />
   <meta name="msapplication-TileColor" content="#c89dcc" />
   <meta name="theme-color" content="#89029c" />
-  <meta property="og:title" content={config.title} />
+  <meta property="og:title" content="{config.title}" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="/favicon.png" />
   <meta property="og:description" content="{config.description}." />
