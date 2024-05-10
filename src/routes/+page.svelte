@@ -55,14 +55,7 @@
 </ul>
 <p>
   You may e-mail me on
-  <span class="--title-font">atomicnumberphi</span>
-  [
-  <code>at</code>
-  ]
-  <span class="--title-font">gmail</span>
-  [
-  <code>dot</code>
-  ]
-  <span class="--title-font">com</span>
-  !
+  <span class="--title-font">atomicnumberphi</span>[<code>at</code>]<span class="--title-font"
+    >gmail</span
+  >[<code>dot</code>]<span class="--title-font">com</span>!
 </p>
