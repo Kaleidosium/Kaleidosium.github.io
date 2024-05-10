@@ -29,6 +29,6 @@
 
   <!-- Post -->
   <div class="prose">
-    <svelte:component this={data.content} />
+    <svelte:component this={data.content}></svelte:component>
   </div>
 </article>

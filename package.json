@@ -13,6 +13,7 @@
     "deploy": "pnpm build && pnpx gh-pages -d build -t true"
   },
   "devDependencies": {
+    "@awmottaz/prettier-plugin-void-html": "^1.5.0",
     "@sveltejs/adapter-auto": "^3.2.0",
     "@sveltejs/adapter-static": "^3.0.1",
     "@sveltejs/kit": "^2.5.7",
@@ -22,17 +23,17 @@
     "@typescript-eslint/parser": "^6.21.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-svelte": "^2.38.0",
+    "eslint-plugin-svelte": "^2.39.0",
     "gh-pages": "^6.1.1",
     "mdsvex": "^0.11.0",
     "prettier": "^3.2.5",
     "prettier-plugin-svelte": "^3.2.3",
-    "sass": "^1.76.0",
-    "svelte": "^4.2.15",
-    "svelte-check": "^3.7.0",
+    "sass": "^1.77.0",
+    "svelte": "^4.2.16",
+    "svelte-check": "^3.7.1",
     "tslib": "^2.6.2",
     "typescript": "^5.4.5",
-    "vite": "^5.2.10"
+    "vite": "^5.2.11"
   },
   "type": "module",
   "dependencies": {

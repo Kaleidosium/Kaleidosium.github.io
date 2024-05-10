@@ -10,7 +10,7 @@ published: true
 I've showed my flag to a few people and I decided to make a post about it, here it is:
 
 <figure>
-  <img src="/images/notebook/Personal Banner_1-Phi.png" alt="Personal Banner of Dania Rifki." />
+  <img src="/images/notebook/Personal Banner_1-Phi.png" alt="Personal Banner of Dania Rifki.">
   <figcaption>My beautiful personal flag! ain't it a beauty?</figcaption>
 </figure>
 

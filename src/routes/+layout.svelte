@@ -98,7 +98,7 @@
       </nav>
     </section>
     <section class="content">
-      <div class="content-container"><slot /></div>
+      <div class="content-container"><slot></slot></div>
     </section>
   </div>
 </body>
