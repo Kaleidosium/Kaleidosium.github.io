@@ -1,5 +1,6 @@
 ---
 title: What is your flag?
+description: Brief description of my personal banner.
 date: '2023-03-27'
 categories:
   - opinion

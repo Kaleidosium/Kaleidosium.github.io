@@ -1,5 +1,6 @@
 ---
 title: My Art Style
+description: An explanation of my current art style.
 date: '2022-11-21'
 categories:
   - opinion

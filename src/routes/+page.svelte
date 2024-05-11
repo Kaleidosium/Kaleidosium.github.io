@@ -4,6 +4,10 @@
 
 <svelte:head>
   <title>{config.title} | {config.description}</title>
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{config.title}" />
+  <meta name="description" content="{config.description}." />
+  <meta property="og:description" content="{config.description}." />
 </svelte:head>
 
 <h1 id="Title" class="title">

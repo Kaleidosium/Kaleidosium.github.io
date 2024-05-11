@@ -1,5 +1,6 @@
 ---
 title: How I design Robot Furries
+description:
 date: '2023-01-06'
 categories:
   - effortpost

@@ -1,5 +1,6 @@
 ---
 title: The Iron Law of Moderate Political Forums
+description: How initially moderate political forums and online communities turn radical.
 date: '2022-05-26'
 categories:
   - effortpost
