@@ -24,6 +24,7 @@ It is powered by [SvelteKit](https://kit.svelte.dev/), which I fell in love with
 The background pattern is a pixel drawing of my fursona by [PixelBunny821](https://twitter.com/PixelBunny821).
 
 ---
+
 <!-- prettier-ignore -->
 ```js
 console.log(
