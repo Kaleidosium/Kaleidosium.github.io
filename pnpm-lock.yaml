@@ -15,9 +15,6 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0
     devDependencies:
-      '@awmottaz/prettier-plugin-void-html':
-        specifier: ^1.5.0
-        version: 1.5.0(prettier@3.2.5)
       '@sveltejs/adapter-auto':
         specifier: ^3.2.0
         version: 3.2.0(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.16)(vite@5.2.11(sass@1.77.0)))(svelte@4.2.16)(vite@5.2.11(sass@1.77.0)))
@@ -84,12 +81,6 @@ packages:
   '@ampproject/remapping@2.3.0':
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
-
-  '@awmottaz/prettier-plugin-void-html@1.5.0':
-    resolution: {integrity: sha512-RQlvzIo9dk6gXbCLZPApXYLhsPwwfuX8nk5a2Vx1bN7oU/1ARYqulkwHv6JXfcZbVhxhfLvE+Fu5bHQBO3jqwQ==}
-    engines: {node: '>=18.0.0'}
-    peerDependencies:
-      prettier: '>=3.0.0 <3.3.0'
 
   '@esbuild/aix-ppc64@0.20.2':
     resolution: {integrity: sha512-D+EBOJHXdNZcLJRBkhENNG8Wji2kgc9AZ9KiPr1JuZjsNtyHzrsfLRrY0tk2H2aoFu6RANO1y1iPPUCDYWkb5g==}
@@ -1439,10 +1430,6 @@ snapshots:
     dependencies:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
-
-  '@awmottaz/prettier-plugin-void-html@1.5.0(prettier@3.2.5)':
-    dependencies:
-      prettier: 3.2.5
 
   '@esbuild/aix-ppc64@0.20.2':
     optional: true

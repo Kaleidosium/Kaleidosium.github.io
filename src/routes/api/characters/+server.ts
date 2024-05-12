@@ -17,9 +17,7 @@ async function getCharacters() {
     }
   }
 
-  posts = posts.sort(
-    (first, second) => first.name.localeCompare(second.name)
-  );
+  posts = posts.sort((first, second) => first.name.localeCompare(second.name));
 
   return posts;
 }
