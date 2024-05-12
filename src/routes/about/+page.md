@@ -21,13 +21,15 @@ This is my little personal website; It is where I write thoughts that cannot fit
 
 It is powered by [SvelteKit](https://kit.svelte.dev/), which I fell in love with. All content on this website is licensed under CC BY-SA 4.0 unless stated otherwise.
 
-The background pattern has a pixel drawing of my fursona by [PixelBunny821](https://twitter.com/PixelBunny821).
+The background pattern is a pixel drawing of my fursona by [PixelBunny821](https://twitter.com/PixelBunny821).
 
 ---
 
 ```js
 console.log(
   `%c `.repeat(5),
-  ...`5CFFABFFFFAB5CF`.match(/.../g).map(c => `background:#${c};display:block;padding:2%26%`)
+  ...`5CFFABFFFFAB5CF`
+    .match(/.../g)
+    .map(c => `background:#${c};display:block;padding:2%26%`)
 );
 ```
