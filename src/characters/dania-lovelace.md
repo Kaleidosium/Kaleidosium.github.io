@@ -1,8 +1,9 @@
 ---
-title: Dania Lovelace
+name: Dania Lovelace
+published: true
 ---
 
-![A drawing of Dania Lovelace, Model Number D4-N14](/images/originalcharacters/dania-lovelace/DaniaLovelace.png)
+<!-- ![A drawing of Dania Lovelace, Model Number D4-N14](./images/characters/dania-lovelace/DaniaLovelace.png) -->
 
 | Detail        | Description                                              |
 | ------------- | -------------------------------------------------------- |
@@ -14,7 +15,7 @@ title: Dania Lovelace
 | Height        | 180cm                                                    |
 | Occupation(s) | Programmer, Computer Scientist                           |
 | Education     | Physics (M.S.)                                           |
-| Spouse        | [Sofia Singshow Swift](/originalcharacters/sofia-swift/) |
+| Spouse        | [Sofia Singshow Swift](./sofia-swift/) |
 
 Dania Lovelace is a computer scientist and programmer. She is my fursona and the oldest character I still use today.
 
@@ -42,23 +43,3 @@ Today (2055) she still works as a graphics programmer, though at a different stu
 - She speaks English, Esperanto, Dutch, French, Japanese, and Indonesian.
 - Her accent is a modern variation of Transatlantic (though is more influenced by America) with a hint of Swiss French.
 - As my (Dania Rifki) fursona, she is the closest character to me, in a way she is an idealised version of me.
-
-<table class="gallery">
-<thead>
-<tr>
-<th colspan="3">Gallery</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td ><img src="/images/originalcharacters/dania-lovelace/CibeleeBunnie_Kaleidosium.jpg" alt="Pride Art of Dania made by CibeleeBunnie on DeviantArt, She&#39;s flying the Transgender Flag"></td>
-<td ><img src="/images/originalcharacters/dania-lovelace/RHG-Dania_Boots_Portrait.png" alt="Dania as Risky Boots by RHG1951 on Twitter"></td>
-<td ><img src="/images/originalcharacters/dania-lovelace/PashmashhDaniaKebayaRobot.png" alt="Dania in an Encim Kebaya by Pashmashh on Instagram, I love how they did the sarong"></td>
-</tr>
-<tr>
-<td ><img src="/images/originalcharacters/dania-lovelace/ReubenPunkDania.jpg" alt="Punk-looking Dania done by Reuben on Instagram, I love the dark colours"></td>
-<td ><img src="/images/originalcharacters/dania-lovelace/MilkyWayLynx_Dania.jpg" alt="Traditional Chibi Art of Dania done by MLynx56 on Twitter!"></td>
-<td ><img src="/images/originalcharacters/dania-lovelace/VeeSheep-Comm_ICON_-_Kanoie_-_Dania_Birthday.png" alt="Dania PFP drawn by VeeSheep for my birthday, commissioned by KanoieAwesome"></td>
-</tr>
-</tbody>
-</table>

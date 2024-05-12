@@ -39,10 +39,9 @@
             <!-- <li class="nav-element">
               <a href="/">Programming</a>
             </li> -->
-            <!-- TODO(Kal): Finish the Original Characters Section -->
-            <!-- <li class="nav-element">
-              <a href="/originalcharacters">Original Characters</a>
-            </li> -->
+            <li class="nav-element">
+              <a href="/characters">Original Characters</a>
+            </li>
           </ul>
           <ul>
             <li class="nav-header">Info</li>

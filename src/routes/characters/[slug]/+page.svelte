@@ -6,9 +6,9 @@
 
 <!-- SEO -->
 <svelte:head>
-  <title>{data.meta.title}</title>
+  <title>{data.meta.name}</title>
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="{data.meta.title}" />
+  <meta property="og:title" content="{data.meta.name}" />
   <meta name="description" content="{data.meta.description}." />
   <meta property="og:description" content="{data.meta.description}." />
 </svelte:head>
@@ -16,18 +16,8 @@
 <article>
   <!-- Title -->
   <hgroup>
-    <h2 class="title">{data.meta.title}</h2>
+    <h1 class="title">{data.meta.name}</h1>
   </hgroup>
-
-  <!-- Tags -->
-  <p class="date --accent-font">
-    <strong>Published at {formatDate(data.meta.date)}</strong>
-  </p>
-  <div class="tags">
-    {#each data.meta.categories as category}
-      <span class="surface-4">&num;{category}&nbsp</span>
-    {/each}
-  </div>
 
   <!-- Post -->
   <div class="prose">
