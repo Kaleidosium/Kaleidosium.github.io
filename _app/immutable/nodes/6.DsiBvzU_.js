@@ -1,1 +1,0 @@
-import{s,n as e}from"../chunks/scheduler.Bmg8oFKD.js";import{S as a,i as n,h as r,d as c}from"../chunks/index.C_y2PduF.js";function h(o){return{c(){this.h()},l(t){r("svelte-nzyalg",document.head).forEach(c),this.h()},h(){document.title="Original Characters"},m:e,p:e,i:e,o:e,d:e}}class m extends a{constructor(t){super(),n(this,t,null,h,s,{})}}export{m as component};
