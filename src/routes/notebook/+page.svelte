@@ -18,7 +18,7 @@
     {#each data.posts as post}
       <li class="post">
         <a href="{`notebook/${post.slug}`}" class="title">{post.title}</a>
-        -
+        &middot;
         <span class="date">{formatDate(post.date)}</span>
       </li>
     {/each}

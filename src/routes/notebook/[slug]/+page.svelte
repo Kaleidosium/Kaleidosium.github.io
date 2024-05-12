@@ -25,7 +25,7 @@
     <span class="date --accent-font">
       <i>Published on {formatDate(data.meta.date)}</i>
     </span>
-    <span>·</span>
+    <span>&middot;</span>
     <span class="tags --accent-font --accent-color">
       {#each data.meta.categories as category}
         <span class="surface-4">&num;{category}&nbsp</span>
