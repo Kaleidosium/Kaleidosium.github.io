@@ -46,6 +46,7 @@
 <hr />
 <h2 class="header">Links and Contact</h2>
 <ul>
+  <li><a href="https://ko-fi.com/kaleidosium">Ko-fi (Donations)</a></li>
   <li><a href="https://github.com/kaleidosium">GitHub</a></li>
   <li><a href="https://kaleidosium.tumblr.com">Tumblr</a></li>
   <li><a href="https://trans.house/@kaleidosium">Fediverse</a></li>
