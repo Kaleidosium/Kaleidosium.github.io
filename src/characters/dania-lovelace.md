@@ -5,17 +5,17 @@ published: true
 
 <!-- ![A drawing of Dania Lovelace, Model Number D4-N14](./images/characters/dania-lovelace/DaniaLovelace.png) -->
 
-| Detail        | Description                            |
-| ------------- | -------------------------------------- |
-| Birthdate     | 2042/03/28 (mental age 22)             |
-| Species       | Dhole (Robot)                          |
-| Model Number  | D4-N14                                 |
-| Gender        | Female (Transgender) \[She/Her\]       |
-| Attraction    | Biromantic Bisexual (Women-leaning)    |
-| Height        | 180cm                                  |
-| Occupation(s) | Programmer, Computer Scientist         |
-| Education     | Physics (M.S.)                         |
-| Spouse        | [Sofia Singshow Swift](./sofia-swift/) |
+| Detail        | Description                                |
+| ------------- | ------------------------------------------ |
+| Birthdate     | 2042/03/28 (mental age 22)                 |
+| Species       | Dhole (Robot)                              |
+| Model Number  | D4-N14                                     |
+| Gender        | Female (Transgender) \[She/Her\]           |
+| Attraction    | Biromantic Bisexual (Women-leaning)        |
+| Height        | 180cm                                      |
+| Occupation(s) | Programmer, Computer Scientist             |
+| Education     | Physics (M.S.)                             |
+| Spouse        | [Sofia Sylvie Silveyra](./sofia-silveyra/) |
 
 Dania Lovelace is a computer scientist and programmer. She is my fursona and the oldest character I still use today.
 
