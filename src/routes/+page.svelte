@@ -46,19 +46,15 @@
 <hr />
 <h2 class="header">Links and Contact</h2>
 <ul>
-  <li><a href="https://ko-fi.com/kaleidosium">Ko-fi</a>(Donations)</li>
+  <li><a href="https://ko-fi.com/kaleidosium">Ko-fi</a> (Donations)</li>
   <li><a href="https://github.com/kaleidosium">GitHub</a></li>
   <li><a rel="me" href="https://wetdry.world/@kaleidosium">Fediverse</a></li>
   <li>
-    <a href="https://bsky.app/profile/Kaleidosium.trans.house.ap.brid.gy">BlueSky</a> (Fediverse Mirror)
+    <a href="https://bsky.app/profile/kaleidosium.my.id">BlueSky</a>
   </li>
-  <li><a href="https://kaleidosium.tumblr.com">Tumblr</a></li>
   <li><a href="https://kaleidosium.newgrounds.com">Newgrounds</a></li>
-  <li>
-    <a href="https://twitter.com/kaleidosium">Twitter</a>
-    (Art Only)
-  </li>
-  <li><a href="https://reddit.com/user/atomicnumberphi/">Reddit</a>(Inactive)</li>
+  <li><a href="https://kaleidosium.tumblr.com">Tumblr</a></li>
+  <li><a href="https://reddit.com/user/atomicnumberphi/">Reddit</a> (Inactive)</li>
   <li><a href="https://youtube.com/@Kaleidosium">YouTube</a></li>
 </ul>
 <p>
