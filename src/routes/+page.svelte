@@ -49,6 +49,7 @@
   <li><a href="https://ko-fi.com/kaleidosium">Ko-fi</a> (Donations)</li>
   <li><a href="https://github.com/kaleidosium">GitHub</a></li>
   <li><a rel="me" href="https://wetdry.world/@kaleidosium">Fediverse</a></li>
+  <li><a rel="me" href="https://pawb.fun/@kaleidrawings">Fediverse (Art)</a></li>
   <li>
     <a href="https://bsky.app/profile/kaleidosium.my.id">BlueSky</a>
   </li>
